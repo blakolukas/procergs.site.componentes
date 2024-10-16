@@ -1,0 +1,16 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="procergs.sitedemo"
+    >
+
+  <configure zcml:condition="installed AccessControl.security">
+
+    <permission
+        id="procergs.sitedemo.secretaria.add"
+        title="procergs.sitedemo: Add Secretaria"
+        />
+
+  </configure>
+
+</configure>

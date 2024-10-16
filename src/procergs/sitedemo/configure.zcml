@@ -11,6 +11,8 @@
       file="permissions.zcml"
       />
 
+  <include file="permissions.zcml" />
+
   <include file="dependencies.zcml" />
   <include file="profiles.zcml" />
 
@@ -18,5 +20,7 @@
   <include package=".indexers" />
   <include package=".serializers" />
   <include package=".vocabularies" />
+
+  <include package=".behaviors" />
 
 </configure>
