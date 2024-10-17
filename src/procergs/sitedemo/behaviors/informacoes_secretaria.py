@@ -19,8 +19,8 @@ class IInformacoesSecretaria(model.Schema):
     )
 
     nome_secretaria_vinculada = schema.TextLine(
-        title=_("Gnome da Secretaria Vinculada"),
-        description=_("Informe o gnome da secretaria vinculada"),
+        title=_("Nome da Secretaria Vinculada"),
+        description=_("Informe o nome da secretaria vinculada"),
         required=False,
     )
 

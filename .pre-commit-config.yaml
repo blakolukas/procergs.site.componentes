@@ -49,6 +49,7 @@ repos:
     -   id: codespell
         additional_dependencies:
           - tomli
+        args: ["-L", "nome,comercial"]
 
 ##
 # Add extra configuration options in .meta.toml:

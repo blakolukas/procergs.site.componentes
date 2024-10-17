@@ -3,8 +3,6 @@
     xmlns:plone="http://namespaces.plone.org/plone"
     >
 
-
-
   <plone:behavior
       name="procergs.sitedemo.behavior.informacoes_secretaria"
       title="Informações da Secretaria"
@@ -12,5 +10,18 @@
       provides=".informacoes_secretaria.IInformacoesSecretaria"
       />
 
+  <plone:behavior
+      name="procergs.sitedemo.behavior.contato"
+      title="Informações de contato"
+      description="Adiciona campos de contato"
+      provides=".contato.IContato"
+      />
+
+  <plone:behavior
+      name="procergs.sitedemo.behavior.local"
+      title="Informações de local"
+      description="Adiciona campos de local"
+      provides=".local.ILocal"
+      />
 
 </configure>

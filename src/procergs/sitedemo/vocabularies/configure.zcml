@@ -1,3 +1,6 @@
 <configure xmlns="http://namespaces.zope.org/zope">
-
+  <utility
+      name="procergs.sitedemo.vocabulary.estados"
+      component=".estados.vocab_estados"
+      />
 </configure>
