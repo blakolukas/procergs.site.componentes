@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <object xmlns:i18n="http://xml.zope.org/namespaces/i18n"
         meta_type="Dexterity FTI"
-        name="Secretaria"
+        name="Local"
         i18n:domain="procergs.sitedemo"
 >
 
   <!-- Basic properties -->
   <property name="title"
             i18n:translate=""
-  >Secretaria</property>
+  >Local</property>
   <property name="description"
             i18n:translate=""
-  >Uma Secretaria dentro da estrutura de governo</property>
+  >Uma localização</property>
 
   <property name="allow_discussion">False</property>
-  <property name="factory">Secretaria</property>
+  <property name="factory">Local</property>
 
   <!-- Hierarchy control -->
   <property name="filter_content_types">False</property>
@@ -22,9 +22,9 @@
   <property name="global_allow">True</property>
 
   <!-- Schema, class and security -->
-  <property name="add_permission">procergs.sitedemo.secretaria.add</property>
-  <property name="klass">procergs.sitedemo.content.secretaria.Secretaria</property>
-  <property name="schema">procergs.sitedemo.content.secretaria.ISecretaria</property>
+  <property name="add_permission">procergs.sitedemo.local.add</property>
+  <property name="klass">procergs.sitedemo.content.local.Local</property>
+  <property name="schema">procergs.sitedemo.content.local.ILocal</property>
 
   <!-- Enabled behaviors -->
   <property name="behaviors"
@@ -34,7 +34,6 @@
     <element value="plone.namefromtitle" />
     <element value="plone.shortname" />
     <element value="plone.excludefromnavigation" />
-    <element value="procergs.sitedemo.behavior.informacoes_secretaria" />
     <element value="procergs.sitedemo.behavior.contato" />
     <element value="procergs.sitedemo.behavior.endereco" />
     <element value="volto.preview_image" />

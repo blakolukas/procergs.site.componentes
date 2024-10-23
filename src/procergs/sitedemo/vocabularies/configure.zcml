@@ -3,4 +3,8 @@
       name="procergs.sitedemo.vocabulary.estados"
       component=".estados.vocab_estados"
       />
+  <utility
+      name="portal.governo.vocabulary.locais"
+      component=".locais.vocab_locais"
+      />
 </configure>

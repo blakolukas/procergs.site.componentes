@@ -11,6 +11,11 @@
         title="procergs.sitedemo: Add Secretaria"
         />
 
+    <permission
+        id="procergs.sitedemo.local.add"
+        title="procergs.sitedemo: Add Local"
+        />
+
   </configure>
 
 </configure>

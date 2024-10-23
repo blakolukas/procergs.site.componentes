@@ -2,7 +2,6 @@ from plone.autoform.interfaces import IFormFieldProvider
 from plone.supermodel import model
 from procergs.sitedemo import _
 from z3c.relationfield.schema import RelationChoice
-from zope import schema
 from zope.interface import provider
 
 
@@ -11,12 +10,10 @@ class IInformacoesSecretaria(model.Schema):
     """Provê campos de endereço."""
 
     model.fieldset(
-        "secretaria",
-        _("Informações Secretaria"),
+        "local",
+        _("Localização"),
         fields=[
             "local",
-            "nome_secretaria_vinculada",
-            "url_secretaria_vinculada",
         ],
     )
 
@@ -24,17 +21,5 @@ class IInformacoesSecretaria(model.Schema):
         title="Local",
         description="Localização deste orgão",
         vocabulary="portal.governo.vocabulary.locais",
-        required=False,
-    )
-
-    nome_secretaria_vinculada = schema.TextLine(
-        title=_("Nome da Secretaria Vinculada"),
-        description=_("Informe o nome da secretaria vinculada"),
-        required=False,
-    )
-
-    url_secretaria_vinculada = schema.TextLine(
-        title=_("URL da Secretaria Vinculada"),
-        description=_("Informe a URL da secretaria vinculada"),
         required=False,
     )

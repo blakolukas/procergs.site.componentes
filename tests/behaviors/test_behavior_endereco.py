@@ -14,8 +14,8 @@ def payload() -> dict:
     }
 
 
-class TestBehaviorLocal:
-    name: str = f"{PACKAGE_NAME}.behavior.local"
+class TestBehaviorEndereco:
+    name: str = f"{PACKAGE_NAME}.behavior.endereco"
 
     @pytest.fixture(autouse=True)
     def _setup(self, portal_factory, dummy_type_schema):

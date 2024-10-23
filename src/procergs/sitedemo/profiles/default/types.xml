@@ -6,4 +6,9 @@
           name="Secretaria"
   />
 
+  <object meta_type="Dexterity FTI"
+          name="Local"
+  />
+
+
 </object>

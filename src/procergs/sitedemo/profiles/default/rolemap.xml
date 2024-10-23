@@ -7,5 +7,14 @@
       <role name="Manager" />
       <role name="Site Administrator" />
     </permission>
+
+    <permission acquire="False"
+                name="procergs.sitedemo: Add Local"
+    >
+      <role name="Manager" />
+      <role name="Site Administrator" />
+    </permission>
+
+
   </permissions>
 </rolemap>

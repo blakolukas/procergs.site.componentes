@@ -18,10 +18,10 @@
       />
 
   <plone:behavior
-      name="procergs.sitedemo.behavior.local"
-      title="Informações de local"
-      description="Adiciona campos de local"
-      provides=".local.ILocal"
+      name="procergs.sitedemo.behavior.endereco"
+      title="Informações de endereco"
+      description="Adiciona campos de endereco"
+      provides=".endereco.IEndereco"
       />
 
 </configure>

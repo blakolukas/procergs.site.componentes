@@ -47,7 +47,7 @@ payload = {
         "procergs.sitedemo:default",
     ],
     "setup_content": False,
-    "default_language": "en",
+    "default_language": "pt-br",
     "portal_timezone": "UTC",
 }
 

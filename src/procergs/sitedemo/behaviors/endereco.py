@@ -6,7 +6,7 @@ from zope.interface import provider
 
 
 @provider(IFormFieldProvider)
-class ILocal(model.Schema):
+class IEndereco(model.Schema):
     """Provê campos de endereço."""
 
     model.fieldset(
