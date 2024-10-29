@@ -22,5 +22,7 @@
   <include package=".vocabularies" />
 
   <include package=".behaviors" />
+  <include package=".services" />
+  <include package=".serializers" />
 
 </configure>

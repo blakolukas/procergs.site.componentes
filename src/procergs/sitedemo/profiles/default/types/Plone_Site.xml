@@ -9,7 +9,6 @@
             purge="false"
   >
     <element value="procergs.sitedemo.behavior.informacoes_secretaria" />
-    <element value="procergs.sitedemo.behavior.tem_local" />
   </property>
 
 
