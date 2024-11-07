@@ -12,7 +12,7 @@
 
   <plone:service
       method="GET"
-      factory=".get.LocalPrincipalGet"
+      factory=".get.ListaGet"
       for="plone.base.interfaces.IPloneSiteRoot"
       permission="zope2.Public"
       name="@locais"

@@ -12,7 +12,7 @@ def vocab_locais(context=None):
     folder_path = "/".join(context.getPhysicalPath())
     return StaticCatalogVocabulary(
         {
-            "path": {"query": folder_path, "depth": 1},
+            "path": {"query": folder_path, "depth": 2},
             "portal_type": ["Local"],
             "sort_on": "sortable_title",
         }

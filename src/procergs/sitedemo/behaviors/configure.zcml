@@ -24,4 +24,11 @@
       provides=".endereco.IEndereco"
       />
 
+  <plone:behavior
+      name="procergs.sitedemo.behavior.extras"
+      title="Informações extras"
+      description="Adiciona campos extras"
+      provides=".extras.IExtras"
+      />
+
 </configure>

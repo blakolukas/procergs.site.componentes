@@ -1,6 +1,5 @@
 from plone import api
 from plone.restapi.interfaces import ISerializeToJson
-from plone.restapi.interfaces import ISerializeToJsonSummary
 from plone.restapi.services import Service
 from z3c.relationfield.relation import RelationValue
 from zope.component import getMultiAdapter
@@ -47,7 +46,7 @@ class ListaGet(Service):
 
     def serializa_como_sumario(self, content) -> dict:
         """Serializa um objeto como dicionário."""
-        serializador = getMultiAdapter((content, self.request), ISerializeToJsonSummary)
+        serializador = getMultiAdapter((content, self.request), ISerializeToJson)
         return serializador()
 
     def reply(self) -> dict:

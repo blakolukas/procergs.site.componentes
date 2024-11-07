@@ -4,7 +4,7 @@
       component=".estados.vocab_estados"
       />
   <utility
-      name="portal.governo.vocabulary.locais"
+      name="procergs.sitedemo.vocabulary.locais"
       component=".locais.vocab_locais"
       />
 </configure>

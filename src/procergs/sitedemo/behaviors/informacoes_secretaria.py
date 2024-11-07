@@ -23,7 +23,7 @@ class IInformacoesSecretaria(model.Schema):
     local = RelationChoice(
         title="Local",
         description="Localização deste orgão",
-        vocabulary="portal.governo.vocabulary.locais",
+        vocabulary="procergs.sitedemo.vocabulary.locais",
         required=False,
     )
 
