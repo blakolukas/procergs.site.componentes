@@ -43,6 +43,7 @@ var/
 .lock
 
 *.mo
+/backend.log
 
 ##
 # Add extra configuration options in .meta.toml:
