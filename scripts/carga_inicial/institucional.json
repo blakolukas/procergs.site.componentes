@@ -1,0 +1,216 @@
+{
+    "/institucional": {
+        "@type": "Document",
+        "title": "Institucional",
+        "subtitle": "",
+        "id": "institucional",
+        "description": "\u00c1rea instituicional do site",
+        "credito": "",
+        "allow_discussion": false,
+        "effective": "2019-07-31T16:25:00+0000",
+        "expires": null,
+        "exclude_from_nav": false,
+        "blocks": {
+            "dc23fbd4-3e51-42bf-ab76-c171b2500545": {
+                "@type": "title"
+            },
+            "a1bd8907-6a0d-4a8b-9368-d71c2a4c993c": {
+                "@type": "listing",
+                "headlineTag": "h2",
+                "styles": {},
+                "variation": "summary"
+            }
+        },
+        "blocks_layout": {
+            "items": [
+                "dc23fbd4-3e51-42bf-ab76-c171b2500545",
+                "a1bd8907-6a0d-4a8b-9368-d71c2a4c993c"
+            ]
+        }
+    },
+    "/institucional/quem-somos": {
+        "@type": "Document",
+        "title": "Quem somos",
+        "subtitle": "",
+        "id": "quem-somos",
+        "description": "P\u00e1gina quem somos do site",
+        "credito": "",
+        "allow_discussion": false,
+        "effective": "2019-07-31T16:25:00+0000",
+        "expires": null,
+        "exclude_from_nav": false,
+        "blocks": {
+            "f8fa5b3d-c09e-48ad-9931-31cbd559b0f0": {
+                "@type": "title"
+            },
+            "bfab28c5-6737-4044-a018-93abd348ff95": {
+                "@type": "slate",
+                "plaintext": "A PROCERGS - Companhia de Processamento de Dados do Estado do Rio Grande do Sul, \u00e9 uma empresa de economia mista, que iniciou suas atividades em 28 de Dezembro de 1972 como \u00f3rg\u00e3o executor da pol\u00edtica de inform\u00e1tica do Estado.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "A PROCERGS - Companhia de Processamento de Dados do Estado do Rio Grande do Sul, \u00e9 uma empresa de economia mista, que iniciou suas atividades em 28 de Dezembro de 1972 como \u00f3rg\u00e3o executor da pol\u00edtica de inform\u00e1tica do Estado."
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
+            },
+            "efdc1e1a-c209-43c1-a4b4-c4c517e91549": {
+                "@type": "slate",
+                "plaintext": "A PROCERGS \u00e9 a maior empresa de inform\u00e1tica do Rio Grande do Sul e processa diariamente milh\u00f5es de transa\u00e7\u00f5es vitais para o bom funcionamento do servi\u00e7o p\u00fablico e o atendimento \u00e0 comunidade, afetando a vida de milh\u00f5es de ga\u00fachos.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "A PROCERGS \u00e9 a maior empresa de inform\u00e1tica do Rio Grande do Sul e processa diariamente milh\u00f5es de transa\u00e7\u00f5es vitais para o bom funcionamento do servi\u00e7o p\u00fablico e o atendimento \u00e0 comunidade, afetando a vida de milh\u00f5es de ga\u00fachos."
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
+            },
+            "a78f0f13-a7d8-43da-8a04-cae09e62ca01": {
+                "@type": "slate",
+                "plaintext": "Ciente de sua responsabilidade, o compromisso da PROCERGS \u00e9 com os \u00f3rg\u00e3os p\u00fablicos estaduais, cidad\u00e3os e empresas que utilizam seus produtos e servi\u00e7os no dia-a-dia.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Ciente de sua responsabilidade, o compromisso da PROCERGS \u00e9 com os \u00f3rg\u00e3os p\u00fablicos estaduais, cidad\u00e3os e empresas que utilizam seus produtos e servi\u00e7os no dia-a-dia."
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
+            },
+            "3dd8e58f-1e09-4fb1-b098-218c70e1fbf0": {
+                "@type": "slate",
+                "plaintext": "Para atender suas necessidades, a PROCERGS tem trabalhado lado a lado com os demais \u00f3rg\u00e3os do Estado, gerando solu\u00e7\u00f5es que contribuem para apoiar a a\u00e7\u00e3o do Governo, modernizar a gest\u00e3o p\u00fablica, melhorar os servi\u00e7os prestados ao cidad\u00e3o e democratizar o acesso a informa\u00e7\u00e3o, buscando assegurar ao Estado e \u00e0 comunidade o m\u00e1ximo de retorno para os investimentos em inform\u00e1tica p\u00fablica.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Para atender suas necessidades, a PROCERGS tem trabalhado lado a lado com os demais \u00f3rg\u00e3os do Estado, gerando solu\u00e7\u00f5es que contribuem para apoiar a a\u00e7\u00e3o do Governo, modernizar a gest\u00e3o p\u00fablica, melhorar os servi\u00e7os prestados ao cidad\u00e3o e democratizar o acesso a informa\u00e7\u00e3o, buscando assegurar ao Estado e \u00e0 comunidade o m\u00e1ximo de retorno para os investimentos em inform\u00e1tica p\u00fablica."
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
+            }
+        },
+        "blocks_layout": {
+            "items": [
+                "f8fa5b3d-c09e-48ad-9931-31cbd559b0f0",
+                "bfab28c5-6737-4044-a018-93abd348ff95",
+                "efdc1e1a-c209-43c1-a4b4-c4c517e91549",
+                "a78f0f13-a7d8-43da-8a04-cae09e62ca01",
+                "3dd8e58f-1e09-4fb1-b098-218c70e1fbf0"
+            ]
+        }
+    },
+    "/institucional/acesso-a-informacao": {
+        "@type": "Document",
+        "title": "Acesso \u00e0 Informa\u00e7\u00e3o",
+        "subtitle": "",
+        "id": "acesso-a-informacao",
+        "description": "Acesso \u00e0 Informa\u00e7\u00e3o",
+        "credito": "",
+        "allow_discussion": false,
+        "effective": "2019-07-31T16:25:00+0000",
+        "expires": null,
+        "exclude_from_nav": false,
+        "blocks": {
+            "f39ed557-3299-4950-a6c4-e71113614508": {
+                "@type": "title"
+            },
+            "1680f1f6-c799-4724-9ca3-322fdfde3632": {
+                "@type": "listing",
+                "headlineTag": "h2",
+                "styles": {},
+                "variation": "summary"
+            }
+        },
+        "blocks_layout": {
+            "items": [
+                "f39ed557-3299-4950-a6c4-e71113614508",
+                "1680f1f6-c799-4724-9ca3-322fdfde3632"
+            ]
+        }
+    },
+    "/institucional/acesso-a-informacao/estrutura-organizacional": {
+        "@type": "Document",
+        "title": "Estrutura Organizacional",
+        "subtitle": "",
+        "id": "estrutura-organizacional",
+        "description": "Estrutura Organizacional",
+        "credito": "",
+        "allow_discussion": false,
+        "effective": "2019-07-31T16:25:00+0000",
+        "expires": null,
+        "exclude_from_nav": false,
+        "blocks": {
+            "5d98c41b-8167-41a7-a42a-d11a324d563f": {
+                "@type": "title"
+            },
+            "554b2345-3004-4e9c-a116-69eb4e1ea960": {
+                "@type": "slate",
+                "plaintext": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
+            }
+        },
+        "blocks_layout": {
+            "items": [
+                "5d98c41b-8167-41a7-a42a-d11a324d563f",
+                "554b2345-3004-4e9c-a116-69eb4e1ea960"
+            ]
+        }
+    },
+    "/institucional/acesso-a-informacao/lei-de-acesso-a-informacao": {
+        "@type": "Document",
+        "title": "Lei de Acesso \u00e0 Informa\u00e7\u00e3o",
+        "subtitle": "",
+        "id": "lei-de-acesso-a-informacao",
+        "description": "Lei de Acesso \u00e0 Informa\u00e7\u00e3o",
+        "credito": "",
+        "allow_discussion": false,
+        "effective": "2019-07-31T16:25:00+0000",
+        "expires": null,
+        "exclude_from_nav": false,
+        "blocks": {
+            "e1e89e74-c117-4e85-a171-c7f68517e490": {
+                "@type": "title"
+            },
+            "c4fbc533-6d1b-461d-bf5e-f82cc504c5e5": {
+                "@type": "slate",
+                "plaintext": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
+            }
+        },
+        "blocks_layout": {
+            "items": [
+                "e1e89e74-c117-4e85-a171-c7f68517e490",
+                "c4fbc533-6d1b-461d-bf5e-f82cc504c5e5"
+            ]
+        }
+    }
+}
