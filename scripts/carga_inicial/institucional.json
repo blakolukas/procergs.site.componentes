@@ -1,4 +1,26 @@
 {
+    "/icones": {
+        "@type": "Document",
+        "title": "icones",
+        "subtitle": "",
+        "id": "icones",
+        "description": "Pasta de icones compartilhados",
+        "credito": "",
+        "allow_discussion": false,
+        "effective": "2024-12-06T14:41:30",
+        "expires": null,
+        "exclude_from_nav": true,
+        "blocks": {
+            "c995d599-e95c-4b93-a38a-8ea909375026": {
+                "@type": "title"
+            }
+        },
+        "blocks_layout": {
+            "items": [
+                "c995d599-e95c-4b93-a38a-8ea909375026"
+            ]
+        }
+    },
     "/institucional": {
         "@type": "Document",
         "title": "Institucional",
@@ -11,10 +33,10 @@
         "expires": null,
         "exclude_from_nav": false,
         "blocks": {
-            "dc23fbd4-3e51-42bf-ab76-c171b2500545": {
+            "2e0c5fd2-854e-4fa5-9427-59855f035356": {
                 "@type": "title"
             },
-            "a1bd8907-6a0d-4a8b-9368-d71c2a4c993c": {
+            "630ad9d4-13d6-42eb-a4cd-9f25ea57afff": {
                 "@type": "listing",
                 "headlineTag": "h2",
                 "styles": {},
@@ -23,8 +45,8 @@
         },
         "blocks_layout": {
             "items": [
-                "dc23fbd4-3e51-42bf-ab76-c171b2500545",
-                "a1bd8907-6a0d-4a8b-9368-d71c2a4c993c"
+                "2e0c5fd2-854e-4fa5-9427-59855f035356",
+                "630ad9d4-13d6-42eb-a4cd-9f25ea57afff"
             ]
         }
     },
@@ -40,10 +62,10 @@
         "expires": null,
         "exclude_from_nav": false,
         "blocks": {
-            "f8fa5b3d-c09e-48ad-9931-31cbd559b0f0": {
+            "696a14c8-6888-460b-add4-9dd2a9bfc40b": {
                 "@type": "title"
             },
-            "bfab28c5-6737-4044-a018-93abd348ff95": {
+            "3713b2c6-0008-4111-a9da-be804ab10fc9": {
                 "@type": "slate",
                 "plaintext": "A PROCERGS - Companhia de Processamento de Dados do Estado do Rio Grande do Sul, \u00e9 uma empresa de economia mista, que iniciou suas atividades em 28 de Dezembro de 1972 como \u00f3rg\u00e3o executor da pol\u00edtica de inform\u00e1tica do Estado.",
                 "value": [
@@ -57,7 +79,7 @@
                     }
                 ]
             },
-            "efdc1e1a-c209-43c1-a4b4-c4c517e91549": {
+            "8aca8760-e41d-42f9-bdab-c788246d8330": {
                 "@type": "slate",
                 "plaintext": "A PROCERGS \u00e9 a maior empresa de inform\u00e1tica do Rio Grande do Sul e processa diariamente milh\u00f5es de transa\u00e7\u00f5es vitais para o bom funcionamento do servi\u00e7o p\u00fablico e o atendimento \u00e0 comunidade, afetando a vida de milh\u00f5es de ga\u00fachos.",
                 "value": [
@@ -71,7 +93,7 @@
                     }
                 ]
             },
-            "a78f0f13-a7d8-43da-8a04-cae09e62ca01": {
+            "1dd3cb7a-e3e2-458e-91a5-68dec757db2f": {
                 "@type": "slate",
                 "plaintext": "Ciente de sua responsabilidade, o compromisso da PROCERGS \u00e9 com os \u00f3rg\u00e3os p\u00fablicos estaduais, cidad\u00e3os e empresas que utilizam seus produtos e servi\u00e7os no dia-a-dia.",
                 "value": [
@@ -85,7 +107,7 @@
                     }
                 ]
             },
-            "3dd8e58f-1e09-4fb1-b098-218c70e1fbf0": {
+            "5a9bb147-8482-47a0-a388-2c400f7dc22a": {
                 "@type": "slate",
                 "plaintext": "Para atender suas necessidades, a PROCERGS tem trabalhado lado a lado com os demais \u00f3rg\u00e3os do Estado, gerando solu\u00e7\u00f5es que contribuem para apoiar a a\u00e7\u00e3o do Governo, modernizar a gest\u00e3o p\u00fablica, melhorar os servi\u00e7os prestados ao cidad\u00e3o e democratizar o acesso a informa\u00e7\u00e3o, buscando assegurar ao Estado e \u00e0 comunidade o m\u00e1ximo de retorno para os investimentos em inform\u00e1tica p\u00fablica.",
                 "value": [
@@ -102,11 +124,11 @@
         },
         "blocks_layout": {
             "items": [
-                "f8fa5b3d-c09e-48ad-9931-31cbd559b0f0",
-                "bfab28c5-6737-4044-a018-93abd348ff95",
-                "efdc1e1a-c209-43c1-a4b4-c4c517e91549",
-                "a78f0f13-a7d8-43da-8a04-cae09e62ca01",
-                "3dd8e58f-1e09-4fb1-b098-218c70e1fbf0"
+                "696a14c8-6888-460b-add4-9dd2a9bfc40b",
+                "3713b2c6-0008-4111-a9da-be804ab10fc9",
+                "8aca8760-e41d-42f9-bdab-c788246d8330",
+                "1dd3cb7a-e3e2-458e-91a5-68dec757db2f",
+                "5a9bb147-8482-47a0-a388-2c400f7dc22a"
             ]
         }
     },
@@ -122,21 +144,36 @@
         "expires": null,
         "exclude_from_nav": false,
         "blocks": {
-            "f39ed557-3299-4950-a6c4-e71113614508": {
+            "c657b447-518b-4685-a78b-2c1ee43a56ae": {
                 "@type": "title"
             },
-            "1680f1f6-c799-4724-9ca3-322fdfde3632": {
+            "5943096c-6aad-43d5-8047-36ce5fbd6d2e": {
                 "@type": "listing",
                 "headlineTag": "h2",
                 "styles": {},
-                "variation": "summary"
+                "variation": "grid"
             }
         },
         "blocks_layout": {
             "items": [
-                "f39ed557-3299-4950-a6c4-e71113614508",
-                "1680f1f6-c799-4724-9ca3-322fdfde3632"
+                "c657b447-518b-4685-a78b-2c1ee43a56ae",
+                "5943096c-6aad-43d5-8047-36ce5fbd6d2e"
             ]
+        }
+    },
+    "/icones/31162539-icone-servico-servidor.png": {
+        "@type": "Image",
+        "title": "31162539-icone-servico-servidor.png",
+        "exclude_from_nav": true,
+        "language": "pt-br",
+        "parent": {
+            "@id": "http://localhost:3000/institucional/acesso-a-informacao/lei-de-acesso-a-informacao"
+        },
+        "image": {
+            "content-type": "image/png",
+            "data": "iVBORw0KGgoAAAANSUhEUgAAAC8AAAAvCAYAAABzJ5OsAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wgfEzQgiZLGRAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAF0UlEQVRo3uVZXWxURRSeub1ttz8LtIBBo1iktKBSxB9IkEhiFIKAiWIk0ZAY0RCNMSRG34gbFTVi/InGhKgvKJjsQ4mRICko1ZKgEJWkLSBbw0pxW9a23N129947O/NdX1bdLDOze2+39cGT7MvsmTPfnDn3O2fOUFIBSafTzfX19WsMw1hNCFlCCGklhMwmhDQSQjxCyHj+FyeEnPM8r5dzfrS2tjZG/gtJJBJ1QognABwBILwAAuACgNcdx1kwLaBHR0fDQoidAJJehQSAAHDAdd3FUwZcCLEVwJA3RQIgB+DD4eHh+oqBTqfTzQAOeNMkAM4xxpaXwkVLKbiuu7i6uvowpfRGnZ7neRcJIcc8z/sRwM9CiKTjOGMDAwOZ1tbWhlAo1GyaZjuldBmldC0hZDWltEZjLwtgs2mahwN5PJfLrQAwWuKY93LO741EItSP7fHx8dlCiBcA/K6xzzjnm30DZ4zdXAL4l67rtk82JOPxeK0Q4kUAGcU6Ti6XW+XLKwAuKoxZnPOHK00Gruu2A/hFsWbStu3rSxqJRCIUwEGFkZjjODdNFZuNjIw0AjiiWPurcujwKRUDZLPZ66Y6j8Tj8VoAPTIMQohHlRNTqVQTgD8lwMem0uOKsI1LcFzq7++vlk4CsEu2Y875+jI+8NsBvAegF8AVAA6AMwDempiYuMbvBjjn9yu8v0Wa9gFckex2n26R4eHhegAfAYCGmUZzudydef6WisKZn0ts9chi/RmJop3NZq/VFWcAvi0za1qO4yz0A54xtlyma9v2DcW7PC5ZcI/O6wC+8Jn29/sBn1/jB0noPP6PQiaTmSc7dsbYLZqYfDBAzYIA4F/TOlUIsUWicLaE108rAKaFENssy5qZTqebhRDPqrJnOeA55+ska5woBPK+ROFtTc2zUgWCc75WAmBjUPCu67bKkiUhhBh5nSWSqu4nlcGqqqoHFJXg16ZpdhWPm6Z50PO8riCc7zjOqGR4TiH4hRL26dXYXKkAv19T4u4LAj4Wi41LhsOF4JslNHVZY7NdEZ+nNLF7Kgj4tra2GZJhuxB8Q/G/Q0NDKY3NJkV5cUmT8geDgA+FQvMkw8lC8LIE4WlsNsoGu7u7bdWEvr4+Owj4qqqqOyTDvxWyzVVlQSqVatLQpCVjjJGRkUZd1yEI28gSG4BdhZ63iifV1dXpyt8rssFwOKy8MITD4fkBqss5hJCHJBvqKgR/oVjBMIxFOhKQDZqmuUJz/Cv8gm9oaHiDUhoqYq3Bzs7OnsKd7JEczZuao3xVkV0PaeYc9RM2QoitipJ4R7HiNgmQk5oMu0qTYddJaHKTnwwrhNgBgMluc7FYrKY4BbfJDOp6iAD6FN4fF0I8bVnWLMuyZgkhtgOYKAXetu35QognNZdw++87gQzMedVXrUg6j0xjB41pOxayOAYwNjY2NkMzp9MniEMBgP/BOb+vVAHUAoD7qS7zrYrjZYLIMsaW+gQeTafTzWVRk+xmBIApY+3fu+8nJUCkOedrdHfYAt0MgI8ZY8v8dq0WK77yAV3GzTPQXQA+ANAPIAXABfArgHcLu12Ft6q8XhxAF4BXOOcbLMuaGbhnAmC3wiPHE4lE3WR7MplMZl4qlWqKRqNGxRs++VbGGcUGvp+UZ6ZDGGNLNV3bc4yxjkquF4lEaD4x7auIQc75RgA5VdsZQGRwcDBUAUd1AOguSP/bK/UG9ZhqA/lNJIQQL/lt50WjUYNzvgnANzK2cV13STl2aBknsMEwjCiltF5zPxWEkO88zzvmed4pzvlAJpNJ9vb2ZltaWsy5c+c21dTULDAMo4NSejchZD2ldI7GXo9hGPdU6hvoAHB2mkqB067rLqroR5xMJhsAvKMLo0mCdoQQO6+qGivMRLcC6Az66q14lPvUtu3500an+Tek3QAGA4I+D+Dl6Xht0XI0Y+w2IcTzAPYCOAEgAWA8/yxvA7gM4CSAz4QQz+kauP8b+QuwKrs0eE854wAAAABJRU5ErkJggg==",
+            "encoding": "base64",
+            "filename": "31162539-icone-servico-servidor.png"
         }
     },
     "/institucional/acesso-a-informacao/estrutura-organizacional": {
@@ -150,11 +187,14 @@
         "effective": "2019-07-31T16:25:00+0000",
         "expires": null,
         "exclude_from_nav": false,
+        "preview_image_link": {
+            "@id": "/icones/31162539-icone-servico-servidor.png"
+        },
         "blocks": {
-            "5d98c41b-8167-41a7-a42a-d11a324d563f": {
+            "d9c9ca7e-3be0-4eb8-8138-73fc51d714f1": {
                 "@type": "title"
             },
-            "554b2345-3004-4e9c-a116-69eb4e1ea960": {
+            "67d59081-afc7-432f-9b62-3d4f6763c653": {
                 "@type": "slate",
                 "plaintext": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "value": [
@@ -171,9 +211,93 @@
         },
         "blocks_layout": {
             "items": [
-                "5d98c41b-8167-41a7-a42a-d11a324d563f",
-                "554b2345-3004-4e9c-a116-69eb4e1ea960"
+                "d9c9ca7e-3be0-4eb8-8138-73fc51d714f1",
+                "67d59081-afc7-432f-9b62-3d4f6763c653"
             ]
+        }
+    },
+    "/institucional/acesso-a-informacao/repasses-ou-transferencias-de-recursos-financeiros": {
+        "@type": "Link",
+        "id": "repasses-ou-transferencias-de-recursos-financeiros",
+        "title": "Repasses ou Transfer\u00eancias de Recursos Financeiros",
+        "description": "Repasses ou Transfer\u00eancias de Recursos Financeiros",
+        "exclude_from_nav": false,
+        "effective": "2019-07-31T16:25:00+0000",
+        "remoteUrl": "http://www.transparencia.rs.gov.br/",
+        "preview_image_link": {
+            "@id": "/icones/31162539-icone-servico-servidor.png"
+        }
+    },
+    "/institucional/acesso-a-informacao/consulta-aos-gastos-e-receitas-publicas": {
+        "@type": "Link",
+        "id": "consulta-aos-gastos-e-receitas-publicas",
+        "title": "Consulta aos Gastos e Receitas P\u00fablicas",
+        "description": "Consulta aos Gastos e Receitas P\u00fablicas",
+        "exclude_from_nav": false,
+        "effective": "2019-07-31T16:25:00+0000",
+        "remoteUrl": "http://www.transparencia.rs.gov.br/",
+        "preview_image_link": {
+            "@id": "/icones/31162539-icone-servico-servidor.png"
+        }
+    },
+    "/institucional/acesso-a-informacao/despesas": {
+        "@type": "Link",
+        "id": "despesas",
+        "title": "Despesas",
+        "description": "Despesas",
+        "exclude_from_nav": false,
+        "effective": "2019-07-31T16:25:00+0000",
+        "remoteUrl": "http://www.transparencia.rs.gov.br/",
+        "preview_image_link": {
+            "@id": "/icones/31162539-icone-servico-servidor.png"
+        }
+    },
+    "/institucional/acesso-a-informacao/licitacoes-e-contratos": {
+        "@type": "Link",
+        "id": "licitacoes-e-contratos",
+        "title": "Licita\u00e7\u00f5es e Contratos",
+        "description": "Licita\u00e7\u00f5es e Contratos",
+        "exclude_from_nav": false,
+        "effective": "2019-07-31T16:25:00+0000",
+        "remoteUrl": "http://www.transparencia.rs.gov.br/webpart/system/ConsultaDadosFiltro.aspx?x=lOpor7XC1%2fBTsxX0qEheSZmx2brqHzxQPBBDwvk4hXo%3d",
+        "preview_image_link": {
+            "@id": "/icones/31162539-icone-servico-servidor.png"
+        }
+    },
+    "/institucional/acesso-a-informacao/detalhamento-nominal-da-folha-de-pagamento-de-pessoal": {
+        "@type": "Link",
+        "id": "detalhamento-nominal-da-folha-de-pagamento-de-pessoal",
+        "title": "Detalhamento Nominal da Folha de Pagamento de Pessoal",
+        "description": "Detalhamento Nominal da Folha de Pagamento de Pessoal",
+        "exclude_from_nav": false,
+        "effective": "2019-07-31T16:25:00+0000",
+        "remoteUrl": "http://www.transparencia.rs.gov.br/",
+        "preview_image_link": {
+            "@id": "/icones/31162539-icone-servico-servidor.png"
+        }
+    },
+    "/institucional/acesso-a-informacao/consulta-de-processos-administrativos": {
+        "@type": "Link",
+        "id": "consulta-de-processos-administrativos",
+        "title": "Consulta de Processos Administrativos",
+        "description": "Consulta de Processos Administrativos",
+        "exclude_from_nav": false,
+        "effective": "2019-07-31T16:25:00+0000",
+        "remoteUrl": "http://www.smarh.rs.gov.br/",
+        "preview_image_link": {
+            "@id": "/icones/31162539-icone-servico-servidor.png"
+        }
+    },
+    "/institucional/acesso-a-informacao/programas-acoes-projetos": {
+        "@type": "Link",
+        "id": "programas-acoes-projetos",
+        "title": "Programas/A\u00e7\u00f5es/Projetos",
+        "description": "Programas/A\u00e7\u00f5es/Projetos",
+        "exclude_from_nav": false,
+        "effective": "2019-07-31T16:25:00+0000",
+        "remoteUrl": "/programas-e-projetos",
+        "preview_image_link": {
+            "@id": "/icones/31162539-icone-servico-servidor.png"
         }
     },
     "/institucional/acesso-a-informacao/lei-de-acesso-a-informacao": {
@@ -187,11 +311,14 @@
         "effective": "2019-07-31T16:25:00+0000",
         "expires": null,
         "exclude_from_nav": false,
+        "preview_image_link": {
+            "@id": "/icones/31162539-icone-servico-servidor.png"
+        },
         "blocks": {
-            "e1e89e74-c117-4e85-a171-c7f68517e490": {
+            "7a0f1eeb-b812-4a15-9e61-e8263ee2b210": {
                 "@type": "title"
             },
-            "c4fbc533-6d1b-461d-bf5e-f82cc504c5e5": {
+            "2e99f3b0-b501-4a23-b6a1-47a4bc71e640": {
                 "@type": "slate",
                 "plaintext": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "value": [
@@ -208,8 +335,8 @@
         },
         "blocks_layout": {
             "items": [
-                "e1e89e74-c117-4e85-a171-c7f68517e490",
-                "c4fbc533-6d1b-461d-bf5e-f82cc504c5e5"
+                "7a0f1eeb-b812-4a15-9e61-e8263ee2b210",
+                "2e99f3b0-b501-4a23-b6a1-47a4bc71e640"
             ]
         }
     }
