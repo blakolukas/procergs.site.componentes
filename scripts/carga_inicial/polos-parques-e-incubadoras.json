@@ -1,0 +1,206 @@
+{
+    "/polos-parques-e-incubadoras": {
+        "@type": "Document",
+        "title": "Polos, Parques e Incubadoras",
+        "subtitle": "",
+        "id": "polos-parques-e-incubadoras",
+        "description": "",
+        "rights": "",
+        "allow_discussion": false,
+        "effective": "2019-08-01T09:07:00+0000",
+        "expires": null,
+        "exclude_from_nav": false,
+        "blocks": {
+            "fed629fe-6f90-493a-9c3d-2eecf6c4a114": {
+                "@type": "title"
+            },
+            "5a3df5f2-5f31-4ec6-b8b9-dc24256b8937": {
+                "@type": "slate",
+                "plaintext": "Os Parques Cient\u00edficos e Tecnol\u00f3gicos s\u00e3o ambientes prop\u00edcios ao desenvolvimento tecnol\u00f3gico, com infraestrutura adequada e que atuam em sinergia entre poder p\u00fablico, meio empresarial e acad\u00eamico.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Os Parques Cient\u00edficos e Tecnol\u00f3gicos s\u00e3o ambientes prop\u00edcios ao desenvolvimento tecnol\u00f3gico, com infraestrutura adequada e que atuam em sinergia entre poder p\u00fablico, meio empresarial e acad\u00eamico."
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
+            },
+            "6ce33ec4-5f4c-43cc-bbbb-db892578ceca": {
+                "@type": "slate",
+                "plaintext": "Esses ambientes atuam como forma de incentivo ao desenvolvimento da ci\u00eancia, promo\u00e7\u00e3o da inova\u00e7\u00e3o e da tecnologia e podem contar com incubadoras e condom\u00ednio de empresas.",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Esses ambientes atuam como forma de incentivo ao desenvolvimento da ci\u00eancia, promo\u00e7\u00e3o da inova\u00e7\u00e3o e da tecnologia e podem contar com incubadoras e condom\u00ednio de empresas."
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
+            },
+            "1bb8dd84-5d34-4ae3-ad46-ec8de41e436b": {
+                "@type": "listing",
+                "headlineTag": "h2",
+                "styles": {},
+                "variation": "summary"
+            }
+        },
+        "blocks_layout": {
+            "items": [
+                "fed629fe-6f90-493a-9c3d-2eecf6c4a114",
+                "5a3df5f2-5f31-4ec6-b8b9-dc24256b8937",
+                "6ce33ec4-5f4c-43cc-bbbb-db892578ceca",
+                "1bb8dd84-5d34-4ae3-ad46-ec8de41e436b"
+            ]
+        }
+    },
+    "/polos-parques-e-incubadoras/centro-de-treinamento": {
+        "@type": "Local",
+        "title": "Polo de Inova\u00e7\u00e3o Tecnol\u00f3gica do Alto da Serra do Botucara\u00ed",
+        "subtitle": "",
+        "id": "centro-de-treinamento",
+        "description": "",
+        "credito": "",
+        "allow_discussion": false,
+        "effective": "2019-08-01T09:08:00+0000",
+        "expires": null,
+        "exclude_from_nav": false,
+        "logradouro": "Av. Brasil Leste, 285 - S\u00e3o Jos\u00e9",
+        "numero": "",
+        "complemento": "",
+        "bairro": "",
+        "cep": "99052-900",
+        "estado": "RS",
+        "municipio": "Passo Fundo",
+        "pais": "Brasil",
+        "coordenadas": "-28.231384,-52.3839615",
+        "telefones": [
+            "5433168100"
+        ],
+        "url": "https://www.upf.br/",
+        "blocks": {
+            "c6542191-5a89-4271-b189-f69ad74ce1b2": {
+                "@type": "title"
+            },
+            "5001fd4c-bc07-4820-8736-2d26a95ca319": {
+                "@type": "slate",
+                "plaintext": "Pedras, Gemas e J\u00f3ias; Agricultura e Alimentos; Turismo",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Pedras, Gemas e J\u00f3ias; Agricultura e Alimentos; Turismo"
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
+            },
+            "8eb5fc8a-9194-40e6-acee-4f0a66b08555": {
+                "@type": "slate",
+                "plaintext": "Maciel Donato",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Maciel Donato"
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
+            }
+        },
+        "blocks_layout": {
+            "items": [
+                "c6542191-5a89-4271-b189-f69ad74ce1b2",
+                "5001fd4c-bc07-4820-8736-2d26a95ca319",
+                "8eb5fc8a-9194-40e6-acee-4f0a66b08555"
+            ]
+        }
+    },
+    "/polos-parques-e-incubadoras/polo-de-modernizacao-tecnologica-do-alto-jacui": {
+        "@type": "Local",
+        "title": "Polo de Moderniza\u00e7\u00e3o Tecnol\u00f3gica do Alto Jacu\u00ed",
+        "subtitle": "",
+        "id": "polo-de-modernizacao-tecnologica-do-alto-jacui",
+        "description": "",
+        "credito": "",
+        "allow_discussion": false,
+        "effective": "2019-08-01T09:47:00+0000",
+        "expires": null,
+        "exclude_from_nav": false,
+        "logradouro": "Rodovia Municipal Jacob Della Mea, s/n km 5,6",
+        "numero": "",
+        "complemento": "",
+        "bairro": "",
+        "cep": "98020-290",
+        "estado": "RS",
+        "municipio": "Cruz Alta",
+        "pais": "Brasil",
+        "coordenadas": "-28.5697929,-53.62225239999998",
+        "telefones": [
+            "5533211500"
+        ],
+        "url": "https://home.unicruz.edu.br/",
+        "blocks": {
+            "3852e373-ca49-4dff-bc28-b61c666aa01e": {
+                "@type": "title"
+            },
+            "b2b92a81-8384-4a33-b5c7-3cb9b9cc4a80": {
+                "@type": "slate",
+                "plaintext": "<span><input class=\"matriz-texteditor-image-big\" type=\"matriz-texteditor-midia\" value=\"? Universidade de Cruz Alta \u2013 UNICRUZ\" style=\"background-image: url('/upload/recortes/201908/02113314_638_THO.jpg');\" data-titulo=\"Universidade de Cruz Alta \u2013 UNICRUZ\" data-legenda-visivel=\"true\" data-id=\"638\" data-formato=\"matriz-texteditor-image-big\"></input><br /></span>",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "<span><input class=\"matriz-texteditor-image-big\" type=\"matriz-texteditor-midia\" value=\"? Universidade de Cruz Alta \u2013 UNICRUZ\" style=\"background-image: url('/upload/recortes/201908/02113314_638_THO.jpg');\" data-titulo=\"Universidade de Cruz Alta \u2013 UNICRUZ\" data-legenda-visivel=\"true\" data-id=\"638\" data-formato=\"matriz-texteditor-image-big\"></input><br /></span>"
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
+            },
+            "9279eaf9-4dd8-4967-b1b2-c4bbe5663b97": {
+                "@type": "slate",
+                "plaintext": "Biotecnologia em agropecu\u00e1ria",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Biotecnologia em agropecu\u00e1ria"
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
+            },
+            "9fc94687-c47b-4319-996a-949ea526db52": {
+                "@type": "slate",
+                "plaintext": "Jana Koefender",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Jana Koefender"
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
+            }
+        },
+        "blocks_layout": {
+            "items": [
+                "3852e373-ca49-4dff-bc28-b61c666aa01e",
+                "b2b92a81-8384-4a33-b5c7-3cb9b9cc4a80",
+                "9279eaf9-4dd8-4967-b1b2-c4bbe5663b97",
+                "9fc94687-c47b-4319-996a-949ea526db52"
+            ]
+        }
+    }
+}
