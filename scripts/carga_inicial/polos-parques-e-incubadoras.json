@@ -113,13 +113,28 @@
                         "type": "p"
                     }
                 ]
+            },
+            "8397d2cc-f4e4-4528-b38c-1e87107d4d86": {
+                "@type": "teaser",
+                "description": "",
+                "head_title": null,
+                "overwrite": false,
+                "styles": {"align": "left"},
+                "variation": "local",
+                "href": [
+                {
+                    "@id": "/polos-parques-e-incubadoras/centro-de-treinamento"
+                }
+                ],
+                "title": "Polo de Modernização Tecnológica do Alto Jacuí"
             }
         },
         "blocks_layout": {
             "items": [
                 "c6542191-5a89-4271-b189-f69ad74ce1b2",
                 "5001fd4c-bc07-4820-8736-2d26a95ca319",
-                "8eb5fc8a-9194-40e6-acee-4f0a66b08555"
+                "8eb5fc8a-9194-40e6-acee-4f0a66b08555",
+                "8397d2cc-f4e4-4528-b38c-1e87107d4d86"
             ]
         }
     },
@@ -192,6 +207,20 @@
                         "type": "p"
                     }
                 ]
+            },
+            "8397d2cc-f4e4-4528-b38c-1e87107d4d86": {
+                "@type": "teaser",
+                "description": "",
+                "head_title": null,
+                "overwrite": false,
+                "styles": {"align": "left"},
+                "variation": "local",
+                "href": [
+                {
+                    "@id": "/polos-parques-e-incubadoras/polo-de-modernizacao-tecnologica-do-alto-jacui"
+                }
+                ],
+                "title": "Polo de Modernização Tecnológica do Alto Jacuí"
             }
         },
         "blocks_layout": {
@@ -199,7 +228,8 @@
                 "3852e373-ca49-4dff-bc28-b61c666aa01e",
                 "b2b92a81-8384-4a33-b5c7-3cb9b9cc4a80",
                 "9279eaf9-4dd8-4967-b1b2-c4bbe5663b97",
-                "9fc94687-c47b-4319-996a-949ea526db52"
+                "9fc94687-c47b-4319-996a-949ea526db52",
+                "8397d2cc-f4e4-4528-b38c-1e87107d4d86"
             ]
         }
     }
