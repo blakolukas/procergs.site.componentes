@@ -34,7 +34,6 @@ class IContato(model.Schema):
     email = Email(
         title=_("Email"),
         required=False,
-        constraint=validadores.is_valid_email,
     )
     fax = schema.TextLine(
         title="FAX",

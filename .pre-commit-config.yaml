@@ -50,6 +50,10 @@ repos:
         additional_dependencies:
           - tomli
         args: ["-L", "nome,comercial"]
+        exclude: >
+            (?x)^(
+                .*\.json
+            )$
 
 ##
 # Add extra configuration options in .meta.toml:

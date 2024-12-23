@@ -52,9 +52,16 @@ setup(
     install_requires=[
         "setuptools",
         "Products.CMFPlone",
+        "Products.CMFCore",
         "plone.api",
         "plone.restapi",
         "plone.volto",
+        "plone.base",
+        "plone.dexterity",
+        "plone.autoform",
+        "z3c.relationfield",
+        "plone.app.vocabularies",
+        "plone.supermodel",
     ],
     extras_require={
         "test": [
@@ -62,9 +69,10 @@ setup(
             "zestreleaser.towncrier",
             "plone.app.testing",
             "plone.restapi[test]",
-            "pytest",
             "pytest-cov",
             "pytest-plone>=0.5.0",
+            "plone.app.contenttypes",
+            "plone.app.robotframework",
         ],
     },
     entry_points="""

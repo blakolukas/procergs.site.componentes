@@ -4,6 +4,12 @@
         name="News Item"
         i18n:domain="plone"
 >
+
+  <!-- Schema, class and security -->
+  <property name="klass">procergs.sitedemo.content.custom_newsitem.CustomNewsItem</property>
+  <property name="schema">procergs.sitedemo.content.custom_newsitem.ICustomNewsItem</property>
+  <property name="add_permission">plone.app.contenttypes.addDocument</property>
+
   <!-- Enabled behaviors -->
   <property name="behaviors"
             purge="false"

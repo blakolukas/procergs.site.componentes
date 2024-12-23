@@ -2,7 +2,7 @@ import logging
 import requests
 
 
-# Classe responsável pelas interações com o Plone API
+# Class responsável pelas interações com o Plone API
 class PloneManager:
     def __init__(self):
         self.BASE_URL = "http://localhost:8080/Plone/++api++"
@@ -45,7 +45,9 @@ class PloneManager:
                 )
                 if response.status_code > 300:
                     breakpoint()
-                    self.logger.error(f"Erro ao criar '{path}': {response.status_code}")
+                    self.logger.error(
+                        f"Error ao criar '{path}': {response.status_code}"
+                    )
                     continue
                 else:
                     self.logger.info(f"Conteúdo criado: '{path}' Tipo: {data['@type']}")
@@ -62,7 +64,7 @@ class PloneManager:
                 )
                 if response.status_code > 200:
                     self.logger.error(
-                        f"Erro ao transicionar '{path}' para publicado: {response.status_code}"
+                        f"Error ao transicionar '{path}' para publicado: {response.status_code}"
                     )
                     continue
                 # else:

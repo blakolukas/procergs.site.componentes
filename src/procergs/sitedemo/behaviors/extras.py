@@ -7,29 +7,20 @@ from zope.interface import provider
 
 @provider(IFormFieldProvider)
 class IExtras(model.Schema):
-    """Provê campos de endereço."""
+    """Provê campos extras vindos do Matriz Framework."""
 
     model.fieldset(
         "extras",
         _("Informações Extras"),
         fields=[
-            "subtitulo",
-            "indicador_destaque",
-            "indicador_manchete",
-            "credito",
+            "subtitle",
             "observacao_interna",
             "matriz_id",
             "matriz_codigo_externo",
         ],
     )
 
-    subtitulo = schema.TextLine(title="Subtítulo", required=False, default="")
-
-    indicador_destaque = schema.Bool(title="Destaque", required=False, default=False)
-
-    indicador_manchete = schema.Bool(title="Manchete", required=False, default=False)
-
-    credito = schema.TextLine(title="Crédito", required=False, default="")
+    subtitle = schema.TextLine(title="Subtítulo", required=False, default="")
 
     observacao_interna = schema.TextLine(
         title="Observação Interna", required=False, default=""
