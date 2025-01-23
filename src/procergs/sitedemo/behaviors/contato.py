@@ -46,10 +46,12 @@ class IContato(model.Schema):
     tel_comercial = schema.TextLine(
         title="Telefone Comercial",
         required=False,
+        max_length=11,
     )
     tel_celular = schema.TextLine(
         title="Telefone Celular",
         required=False,
+        max_length=11,
     )
     voip = schema.TextLine(
         title="VOIP",
