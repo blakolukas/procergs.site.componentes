@@ -1,0 +1,734 @@
+{
+    "/acessibilidade": {
+        "@type": "Document",
+        "title": "Acessibilidade",
+        "description": "P\u00e1gina descritiva dos padrões de acessibilidade considerados no s\u00edtio",
+        "language": "pt-br",
+        "exclude_from_nav": true,
+        "subtitle": "",
+        "blocks": {
+            "163659bd-615e-4ac3-8d59-2235825be5cd": {
+                "@type": "title"
+            },
+            "4ca34437-053f-4b87-ad3c-25a18b1bccd1": {
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "p",
+                        "children": [
+                            {
+                                "text": "Este s\u00edtio eletr\u00f4nico segue as diretrizes do eMAG (Modelo de Acessibilidade em Governo Eletr\u00f4nico), conforme as normas do Governo Federal, em obedi\u00eancia ao Decreto 5.296, de 2.12.2004."
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "Este s\u00edtio eletr\u00f4nico segue as diretrizes do eMAG (Modelo de Acessibilidade em Governo Eletr\u00f4nico), conforme as normas do Governo Federal, em obedi\u00eancia ao Decreto 5.296, de 2.12.2004."
+            },
+            "4d55bde7-c13b-49e6-a851-010c8359fd21": {
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "p",
+                        "children": [
+                            {
+                                "text": "O termo acessibilidade significa incluir a pessoa com defici\u00eancia na participa\u00e7\u00e3o de atividades como o uso de produtos, servi\u00e7os e informa\u00e7\u00f5es. Alguns exemplos s\u00e3o os pr\u00e9dios com rampas de acesso para cadeira de rodas e banheiros adaptados para deficientes."
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "O termo acessibilidade significa incluir a pessoa com defici\u00eancia na participa\u00e7\u00e3o de atividades como o uso de produtos, servi\u00e7os e informa\u00e7\u00f5es. Alguns exemplos s\u00e3o os pr\u00e9dios com rampas de acesso para cadeira de rodas e banheiros adaptados para deficientes."
+            },
+            "79b29adb-253a-469a-a3ef-67a2bd57426b": {
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "p",
+                        "children": [
+                            {
+                                "text": "Na internet, acessibilidade refere-se principalmente \u00e0s recomenda\u00e7\u00f5es do WCAG (World Content Accessibility Guide) do W3C e no caso do Governo Brasileiro ao eMAG (Modelo de Acessibilidade em Governo Eletr\u00f4nico). O eMAG est\u00e1 alinhado \u00e0s recomenda\u00e7\u00f5es internacionais, mas estabelece padr\u00f5es de comportamento acess\u00edvel para sites governamentais."
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "Na internet, acessibilidade refere-se principalmente \u00e0s recomenda\u00e7\u00f5es do WCAG (World Content Accessibility Guide) do W3C e no caso do Governo Brasileiro ao eMAG (Modelo de Acessibilidade em Governo Eletr\u00f4nico). O eMAG est\u00e1 alinhado \u00e0s recomenda\u00e7\u00f5es internacionais, mas estabelece padr\u00f5es de comportamento acess\u00edvel para sites governamentais."
+            },
+            "124f3c25-5a46-4224-b743-75889b90b7a3": {
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "p",
+                        "children": [
+                            {
+                                "text": "Na parte superior deste s\u00edtio existe uma barra de acessibilidade onde se encontram atalhos de navega\u00e7\u00e3o padronizados e a op\u00e7\u00e3o para alterar o contraste da tela. Essas ferramentas est\u00e3o dispon\u00edveis em todas as p\u00e1ginas do s\u00edtio."
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "Na parte superior deste s\u00edtio existe uma barra de acessibilidade onde se encontram atalhos de navega\u00e7\u00e3o padronizados e a op\u00e7\u00e3o para alterar o contraste da tela. Essas ferramentas est\u00e3o dispon\u00edveis em todas as p\u00e1ginas do s\u00edtio."
+            },
+            "e3b59f6f-38fd-4714-85bc-96d4bd36b396": {
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "p",
+                        "children": [
+                            {
+                                "text": "A seguir uma lista das ferramentas de acessibilidade dispon\u00edveis em nossa barra:"
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "A seguir uma lista das ferramentas de acessibilidade dispon\u00edveis em nossa barra:"
+            },
+            "665ac53b-516a-4f17-a2fd-a529150a8429": {
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "h2",
+                        "children": [
+                            {
+                                "text": "Facilitando a visualiza\u00e7\u00e3o"
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "Facilitando a visualiza\u00e7\u00e3o"
+            },
+            "20169dbb-006e-4fb8-a939-659ecf5eefb2": {
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "p",
+                        "children": [
+                            {
+                                "text": ""
+                            },
+                            {
+                                "type": "strong",
+                                "children": [
+                                    {
+                                        "text": "Alto Contraste:"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": " Alterna o esquema de cores dos textos e fundo da tela para branco e preto, maximizando o contraste para melhor leitura."
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": " Alto Contraste: Alterna o esquema de cores dos textos e fundo da tela para branco e preto, maximizando o contraste para melhor leitura."
+            },
+            "d5bcd56a-4e0d-497b-a297-44833a101a01": {
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "h2",
+                        "children": [
+                            {
+                                "text": "Atalhos de navega\u00e7\u00e3o via teclado"
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "Atalhos de navega\u00e7\u00e3o via teclado"
+            },
+            "3ce4cc96-138f-4d74-baf6-6819fc205738": {
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "p",
+                        "children": [
+                            {
+                                "text": "Os atalhos padr\u00f5es deste s\u00edtio eletr\u00f4nico s\u00e3o:"
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "Os atalhos padr\u00f5es deste s\u00edtio eletr\u00f4nico s\u00e3o:"
+            },
+            "d8f06fdc-601a-4e1f-88e6-92890d0d4ee6": {
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "ul",
+                        "children": [
+                            {
+                                "type": "li",
+                                "children": [
+                                    {
+                                        "text": "Teclando-se "
+                                    },
+                                    {
+                                        "type": "strong",
+                                        "children": [
+                                            {
+                                                "text": "Alt + 1"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " em qualquer p\u00e1gina do portal, chega-se diretamente ao come\u00e7o do conte\u00fado principal da p\u00e1gina."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "li",
+                                "children": [
+                                    {
+                                        "text": "Teclando-se "
+                                    },
+                                    {
+                                        "type": "strong",
+                                        "children": [
+                                            {
+                                                "text": "Alt + 2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " em qualquer p\u00e1gina do portal, chega-se diretamente ao in\u00edcio do menu principal"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "li",
+                                "children": [
+                                    {
+                                        "text": "Teclando-se "
+                                    },
+                                    {
+                                        "type": "strong",
+                                        "children": [
+                                            {
+                                                "text": "Alt + 3"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " em qualquer p\u00e1gina do portal, chega-se diretamente em sua busca interna."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "Teclando-se Alt + 1 em qualquer p\u00e1gina do portal, chega-se diretamente ao come\u00e7o do conte\u00fado principal da p\u00e1gina. Teclando-se Alt + 2 em qualquer p\u00e1gina do portal, chega-se diretamente ao in\u00edcio do menu principal. Teclando-se Alt + 3 em qualquer p\u00e1gina do portal, chega-se diretamente em sua busca interna."
+            },
+            "7fa09f6e-bf15-4b6d-88f6-6150b6726a05": {
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "p",
+                        "children": [
+                            {
+                                "text": "Quem prefere utilizar o Internet Explorer \u00e9 preciso apertar o bot\u00e3o Enter do seu teclado ap\u00f3s uma das combina\u00e7\u00f5es acima. Portanto, para chegar ao campo de busca de interna \u00e9 preciso pressionar Alt+3 e depois Enter."
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "Quem prefere utilizar o Internet Explorer \u00e9 preciso apertar o bot\u00e3o Enter do seu teclado ap\u00f3s uma das combina\u00e7\u00f5es acima. Portanto, para chegar ao campo de busca de interna \u00e9 preciso pressionar Alt+3 e depois Enter."
+            },
+            "375ca2fc-fce8-48da-96e5-cd1d7bd2d0d6": {
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "p",
+                        "children": [
+                            {
+                                "text": "No caso do "
+                            },
+                            {
+                                "type": "strong",
+                                "children": [
+                                    {
+                                        "text": "Firefox"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": ", em vez de Alt + n\u00famero, tecle simultaneamente Alt + Shift + n\u00famero.\nSendo "
+                            },
+                            {
+                                "type": "strong",
+                                "children": [
+                                    {
+                                        "text": "Firefox no Mac OS"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": ", em vez de Alt + Shift + n\u00famero, tecle simultaneamente Ctrl + Alt + n\u00famero.\nNo Opera, as teclas s\u00e3o Shift + Escape + n\u00famero. Ao teclar apenas Shift + Escape, o usu\u00e1rio encontrar\u00e1 uma janela com todas as alternativas de ACCESSKEY da p\u00e1gina."
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "No caso do Firefox , em vez de Alt + n\u00famero, tecle simultaneamente Alt + Shift + n\u00famero.\nSendo Firefox no Mac OS , em vez de Alt + Shift + n\u00famero, tecle simultaneamente Ctrl + Alt + n\u00famero.\nNo Opera, as teclas s\u00e3o Shift + Escape + n\u00famero. Ao teclar apenas Shift + Escape, o usu\u00e1rio encontrar\u00e1 uma janela com todas as alternativas de ACCESSKEY da p\u00e1gina."
+            },
+            "eaa061d8-e3f5-4d35-8d0b-6b25299914d5": {
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "h2",
+                        "children": [
+                            {
+                                "text": "Facilitando a leitura"
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "Facilitando a leitura"
+            },
+            "d99e3b9f-844a-4f80-b393-22dc6a29963b": {
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "p",
+                        "children": [
+                            {
+                                "text": "Embora n\u00e3o estejam em nossa barra de acessibilidade, os seguintes comandos de seu navegador podem ser utilizados para ajuste do tamanho do texto:"
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "Embora n\u00e3o estejam em nossa barra de acessibilidade, os seguintes comandos de seu navegador podem ser utilizados para ajuste do tamanho do texto:"
+            },
+            "0b4020b1-db2d-4453-ad6f-41416d73a26f": {
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "ul",
+                        "children": [
+                            {
+                                "type": "li",
+                                "children": [
+                                    {
+                                        "text": "Aumentar fonte: Ctrl + +."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "li",
+                                "children": [
+                                    {
+                                        "text": "Diminuir fonte: Ctrl + -"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "li",
+                                "children": [
+                                    {
+                                        "text": "Fonte Normal (redimensiona para o tamanho padr\u00e3o): Ctrl + 0."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "Aumentar fonte: Ctrl + +. Diminuir fonte: Ctrl + - Fonte Normal (redimensiona para o tamanho padr\u00e3o): Ctrl + 0."
+            },
+            "e087693e-b449-49cd-8256-c5ce639e9fc3": {
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "p",
+                        "children": [
+                            {
+                                "text": "Ao final desse texto, voc\u00ea poder\u00e1 baixar alguns arquivos que explicam melhor o termo acessibilidade e como deve ser implementado nos sites da Internet."
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "Ao final desse texto, voc\u00ea poder\u00e1 baixar alguns arquivos que explicam melhor o termo acessibilidade e como deve ser implementado nos sites da Internet."
+            },
+            "75773c60-9999-4d2b-8687-4a3b6b9b1dae": {
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "h2",
+                        "children": [
+                            {
+                                "text": "Leis e decretos sobre acessibilidade:"
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "Leis e decretos sobre acessibilidade:"
+            },
+            "784a0169-48ed-4a42-a978-a2f48d3bfd39": {
+                "styles": {},
+                "theme": "default",
+                "@type": "slate",
+                "plaintext": " Decreto n\u00ba 5.296 de 02 de dezembro de 2004 (link externo)  Decreto n\u00ba 6.949, de 25 de agosto de 2009 (link externo) - Promulga a Conven\u00e7\u00e3o Internacional sobre os Direitos das Pessoas com Defici\u00eancia e seu Protocolo Facultativo, assinados em Nova York, em 30 de mar\u00e7o de 2007  Decreto n\u00ba 7.724, de 16 de Maio de 2012 (link externo) - Regulamenta a Lei n\u00ba 12.527, que disp\u00f5e sobre o acesso a informa\u00e7\u00f5es Modelo de Acessibilidade de Governo Eletr\u00f4nico (link externo)  Portaria n\u00ba 03, de 07 de Maio de 2007 (link externo) - Institucionaliza o Modelo de Acessibilidade em Governo Eletr\u00f4nico \u2013 e-MAG",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": ""
+                          },
+                          {
+                            "children": [
+                              {
+                                "text": "Decreto n\u00ba 5.296 de 02 de dezembro de 2004"
+                              }
+                            ],
+                            "data": {
+                              "url": "http://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2004/Decreto/D5296.htm"
+                            },
+                            "type": "link"
+                          },
+                          {
+                            "text": " (link externo) "
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": ""
+                          },
+                          {
+                            "type": "link",
+                            "data": {
+                              "url": "http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/decreto/d6949.htm"
+                            },
+                            "children": [
+                              {
+                                "text": "Decreto n\u00ba 6.949, de 25 de agosto de 2009"
+                              }
+                            ]
+                          },
+                          {
+                            "text": " (link externo) - Promulga a Conven\u00e7\u00e3o Internacional sobre os Direitos das Pessoas com Defici\u00eancia e seu Protocolo Facultativo, assinados em Nova York, em 30 de mar\u00e7o de 2007"
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "type": "li",
+                        "children": [
+                          {
+                            "text": ""
+                          },
+                          {
+                            "type": "link",
+                            "data": {
+                              "url": "http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/Decreto/D7724.htm"
+                            },
+                            "children": [
+                              {
+                                "text": "Decreto n\u00ba 7.724, de 16 de Maio de 2012"
+                              }
+                            ]
+                          },
+                          {
+                            "text": " (link externo) - Regulamenta a Lei n\u00ba 12.527, que disp\u00f5e sobre o acesso a informa\u00e7\u00f5es\n"
+                          },
+                          {
+                            "type": "link",
+                            "data": {
+                              "url": "http://www.governoeletronico.gov.br/acoes-e-projetos/e-MAG"
+                            },
+                            "children": [
+                              {
+                                "text": "Modelo de Acessibilidade de Governo Eletr\u00f4nico "
+                              }
+                            ]
+                          },
+                          {
+                            "text": " (link externo)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "li",
+                        "children": [
+                          {
+                            "type": "link",
+                            "data": {
+                              "url": "http://www.governoeletronico.gov.br/biblioteca/arquivos/portaria-no-03-de-07-05-2007"
+                            },
+                            "children": [
+                              {
+                                "text": "Portaria n\u00ba 03, de 07 de Maio de 2007"
+                              }
+                            ]
+                          },
+                          {
+                            "text": " (link externo) - Institucionaliza o Modelo de Acessibilidade em Governo Eletr\u00f4nico \u2013 e-MAG"
+                          }
+                        ]
+                      }
+                    ],
+                    "type": "ul"
+                  }
+                ]
+              },
+            "b1603d48-18bc-4d31-a56d-5614932f0b30": {
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "h2",
+                        "children": [
+                            {
+                                "text": "D\u00favidas, sugest\u00f5es e cr\u00edticas:"
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "D\u00favidas, sugest\u00f5es e cr\u00edticas:"
+            },
+            "a2477586-9ce2-482c-8aba-e422d7d3e803": {
+                "styles": {},
+                "theme": "default",
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "p",
+                        "children": [
+                            {
+                                "text": "No caso de problemas com a acessibilidade do portal, favor acessar a P\u00e1gina de Contato."
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "No caso de problemas com a acessibilidade do portal, favor acessar a P\u00e1gina de Contato."
+            }
+        },
+        "blocks_layout": {
+            "items": [
+                "163659bd-615e-4ac3-8d59-2235825be5cd",
+                "4ca34437-053f-4b87-ad3c-25a18b1bccd1",
+                "4d55bde7-c13b-49e6-a851-010c8359fd21",
+                "79b29adb-253a-469a-a3ef-67a2bd57426b",
+                "124f3c25-5a46-4224-b743-75889b90b7a3",
+                "e3b59f6f-38fd-4714-85bc-96d4bd36b396",
+                "665ac53b-516a-4f17-a2fd-a529150a8429",
+                "20169dbb-006e-4fb8-a939-659ecf5eefb2",
+                "d5bcd56a-4e0d-497b-a297-44833a101a01",
+                "3ce4cc96-138f-4d74-baf6-6819fc205738",
+                "d8f06fdc-601a-4e1f-88e6-92890d0d4ee6",
+                "7fa09f6e-bf15-4b6d-88f6-6150b6726a05",
+                "375ca2fc-fce8-48da-96e5-cd1d7bd2d0d6",
+                "eaa061d8-e3f5-4d35-8d0b-6b25299914d5",
+                "d99e3b9f-844a-4f80-b393-22dc6a29963b",
+                "0b4020b1-db2d-4453-ad6f-41416d73a26f",
+                "e087693e-b449-49cd-8256-c5ce639e9fc3",
+                "75773c60-9999-4d2b-8687-4a3b6b9b1dae",
+                "784a0169-48ed-4a42-a978-a2f48d3bfd39",
+                "b1603d48-18bc-4d31-a56d-5614932f0b30",
+                "a2477586-9ce2-482c-8aba-e422d7d3e803"
+            ]
+        }
+    },
+    "/termos-de-uso": {
+        "@type": "Document",
+        "title": "Termos de uso",
+        "description": "Termos de uso do s\u00edtio",
+        "language": "pt-br",
+        "exclude_from_nav": true,
+        "subtitle": "",
+        "blocks": {
+            "075c2fad-ed2e-4fe1-867c-f7495490f1ec": {
+              "@type": "slate",
+              "plaintext": "Navegador recomendado",
+              "value": [
+                {
+                  "children": [
+                    {
+                      "text": "Navegador recomendado"
+                    }
+                  ],
+                  "type": "h2"
+                }
+              ]
+            },
+            "2604181f-1a96-45c9-987d-cf6c556d990b": {
+              "@type": "slate",
+              "plaintext": " No caso de ter sido desabilitado o suporte a folhas de estilo, n\u00e3o ser\u00e1 poss\u00edvel visualizar o site corretamente.\n\u00c9 altamente recomend\u00e1vel que se habilite o suporte a estilos antes de navegar no site. ",
+              "value": [
+                  {
+                      "type": "p",
+                      "children": [
+                          {
+                              "text": "No caso de ter sido desabilitado o suporte a folhas de estilo, n\u00e3o ser\u00e1 poss\u00edvel visualizar o site corretamente.\n\u00c9 altamente recomend\u00e1vel que se habilite o suporte a estilos antes de navegar no site."
+                          }
+                      ]
+                  }
+              ]
+            },
+            "273bbad9-2a1b-42cb-ad9a-df6116a5ade5": {
+              "@type": "slate",
+              "plaintext": " Para garantir a \u00f3tima visualiza\u00e7\u00e3o, mantenha sempre seu navegador atualizado. ",
+              "value": [
+                  {
+                      "type": "p",
+                      "children": [
+                          {
+                              "text": "Para garantir a \u00f3tima visualiza\u00e7\u00e3o, mantenha sempre seu navegador atualizado."
+                          }
+                      ]
+                  }
+              ]
+            },
+            "7c1e018d-f4c9-485a-9ecc-e2849c25556b": {
+              "@type": "slate",
+              "plaintext": " \u00c9 altamente recomend\u00e1vel utilizar um navegador que siga os padr\u00f5es W3C. S\u00e3o indicados os navegadores: ",
+              "value": [
+                  {
+                      "type": "p",
+                      "children": [
+                          {
+                              "text": "\u00c9 altamente recomend\u00e1vel utilizar um navegador que siga os padr\u00f5es W3C. S\u00e3o indicados os navegadores:"
+                          }
+                      ]
+                  }
+              ]
+            },
+            "8bbc82fc-a9b9-4554-9822-6e4dbaf0e231": {
+              "@type": "slate",
+              "plaintext": "O javascript utilizado nas p\u00e1ginas \u00e9 o ECMA-262 edi\u00e7\u00e3o 6.",
+              "value": [
+                  {
+                      "children": [
+                          {
+                              "text": "O javascript utilizado nas p\u00e1ginas \u00e9 "
+                          },
+                          {
+                            "children": [
+                              {
+                                "text": "ECMA-262"
+                              }
+                            ],
+                            "data": {
+                              "url": "http://www.ecma-international.org/publications/standards/Ecma-262.htm"
+                            },
+                            "type": "link"
+                          },
+                          {
+                           
+                                "text": " edi\u00e7\u00e3o 6"
+                           
+                          }
+                      ],
+                      "type": "p"
+                  }
+              ]
+            },
+            "935cbcb9-9a12-41d8-9763-354a9202d8fe": {
+              "@type": "slate",
+              "plaintext": " A maioria dos navegadores possui suporte nativo ao Javascript, mas \u00e9 essencial que ele esteja habilitado para o uso, pois toda a navegabilidade est\u00e1 baseada nesse recurso. ",
+              "value": [
+                {
+                  "type" : "p",
+                  "children": [
+                    {
+                      "text": "A maioria dos navegadores possui suporte nativo ao Javascript, mas \u00e9 essencial que ele esteja habilitado para o uso, pois toda a navegabilidade est\u00e1 baseada nesse recurso."
+                    }
+                  ]
+                }
+              ]
+            },
+            "c3bebe25-1731-4413-b41b-56ddd6f80630": {
+              "@type": "title"
+            },
+            "ec11212e-7053-49fe-bf04-3d06729d37f5": {
+              "@type": "slate",
+              "plaintext": "Javascript",
+              "value": [
+                {
+                  "children": [
+                    {
+                      "text": "Javascript"
+                    }
+                  ],
+                  "type": "h2"
+                }
+              ]
+            },
+            "eead0b61-ffb5-4b11-84b0-7cbee43e70e6": {
+              "@type": "slate",
+              "plaintext": "Folhas de estilo (CSS: Cascading Style Sheets)",
+              "value": [
+                {
+                  "children": [
+                    {
+                      "text": "Folhas de estilo (CSS: Cascading Style Sheets)"
+                    }
+                  ],
+                  "type": "h2"
+                }
+              ]
+            },
+            "f9dd94c2-770c-4b96-940b-a8a631aef73d": {
+              "@type": "slate",
+              "plaintext": "Apple Safari 10 ou superior Google Chrome 57 ou superior Opera 44 ou superior Microsoft Edge 13 ou superior Mozilla Firefox 45 ou superior",
+              "value": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "Apple Safari 10 ou superior"
+                        }
+                      ],
+                      "type": "li"
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Google Chrome 57 ou superior"
+                        }
+                      ],
+                      "type": "li"
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Opera 44 ou superior"
+                        }
+                      ],
+                      "type": "li"
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Microsoft Edge 13 ou superior"
+                        }
+                      ],
+                      "type": "li"
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Mozilla Firefox 45 ou superior"
+                        }
+                      ],
+                      "type": "li"
+                    }
+                  ],
+                  "type": "ul"
+                }
+              ]
+            }
+          },
+        "blocks_layout": {
+            "items": [
+                "c3bebe25-1731-4413-b41b-56ddd6f80630",
+                "075c2fad-ed2e-4fe1-867c-f7495490f1ec",
+                "7c1e018d-f4c9-485a-9ecc-e2849c25556b",
+                "f9dd94c2-770c-4b96-940b-a8a631aef73d",
+                "273bbad9-2a1b-42cb-ad9a-df6116a5ade5",
+                "ec11212e-7053-49fe-bf04-3d06729d37f5",
+                "935cbcb9-9a12-41d8-9763-354a9202d8fe",
+                "8bbc82fc-a9b9-4554-9822-6e4dbaf0e231",
+                "eead0b61-ffb5-4b11-84b0-7cbee43e70e6",
+                "2604181f-1a96-45c9-987d-cf6c556d990b"
+            ]
+        }
+    }
+}
