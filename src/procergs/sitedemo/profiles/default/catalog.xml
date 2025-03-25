@@ -10,4 +10,5 @@
   <!-- Metadata
   <column value="industry" />
 -->
+  <column value="subtitle" />
 </object>
