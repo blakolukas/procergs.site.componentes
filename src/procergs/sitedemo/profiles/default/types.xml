@@ -10,5 +10,8 @@
           name="Local"
   />
 
+  <object meta_type="Dexterity FTI"
+          name="Banner"
+  />
 
 </object>

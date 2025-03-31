@@ -12,6 +12,11 @@
         />
 
     <permission
+        id="procergs.sitedemo.banner.add"
+        title="procergs.sitedemo: Add Banner"
+        />
+
+    <permission
         id="procergs.sitedemo.local.add"
         title="procergs.sitedemo: Add Local"
         />

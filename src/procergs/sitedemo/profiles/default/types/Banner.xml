@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+        meta_type="Dexterity FTI"
+        name="Banner"
+        i18n:domain="procergs.sitedemo"
+>
+
+  <!-- Basic properties -->
+  <property name="title"
+            i18n:translate=""
+  >Banner</property>
+  <property name="description"
+            i18n:translate=""
+  >Um Banner para capa</property>
+
+  <property name="allow_discussion">False</property>
+  <property name="factory">Banner</property>
+
+  <!-- Hierarchy control -->
+  <property name="filter_content_types">False</property>
+  <property name="allowed_content_types" />
+  <property name="global_allow">True</property>
+
+  <!-- Schema, class and security -->
+  <property name="add_permission">procergs.sitedemo.banner.add</property>
+  <property name="klass">procergs.sitedemo.content.banner.Banner</property>
+  <property name="schema">procergs.sitedemo.content.banner.IBanner</property>
+
+  <!-- Enabled behaviors -->
+  <property name="behaviors"
+            purge="false"
+  >
+    <element value="plone.basic" />
+    <element value="plone.namefromtitle" />
+    <element value="plone.shortname" />
+    <element value="plone.excludefromnavigation" />
+    <element value="plone.leadimage" />
+    <element value="plone.constraintypes" />
+    <element value="plone.versioning" />
+  </property>
+
+</object>
