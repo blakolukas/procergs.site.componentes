@@ -1,0 +1,21 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="procergs.site.componentes"
+    >
+
+  <configure zcml:condition="installed AccessControl.security">
+
+    <permission
+        id="procergs.site.componentes.secretaria.add"
+        title="procergs.site.componentes: Add Secretaria"
+        />
+
+    <permission
+        id="procergs.site.componentes.local.add"
+        title="procergs.site.componentes: Add Local"
+        />
+
+  </configure>
+
+</configure>

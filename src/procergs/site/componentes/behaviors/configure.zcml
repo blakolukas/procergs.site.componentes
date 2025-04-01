@@ -1,0 +1,34 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    >
+
+  <plone:behavior
+      name="procergs.site.componentes.behavior.informacoes_secretaria"
+      title="Informações da Secretaria"
+      description="Adiciona campos de informações de secretaria."
+      provides=".informacoes_secretaria.IInformacoesSecretaria"
+      />
+
+  <plone:behavior
+      name="procergs.site.componentes.behavior.contato"
+      title="Informações de contato"
+      description="Adiciona campos de contato"
+      provides=".contato.IContato"
+      />
+
+  <plone:behavior
+      name="procergs.site.componentes.behavior.endereco"
+      title="Informações de endereco"
+      description="Adiciona campos de endereco"
+      provides=".endereco.IEndereco"
+      />
+
+  <plone:behavior
+      name="procergs.site.componentes.behavior.extras"
+      title="Informações extras"
+      description="Adiciona campos extras"
+      provides=".extras.IExtras"
+      />
+
+</configure>

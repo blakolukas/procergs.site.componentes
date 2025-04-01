@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rolemap>
+  <permissions>
+    <permission acquire="False"
+                name="procergs.site.componentes: Add Secretaria"
+    >
+      <role name="Manager" />
+      <role name="Site Administrator" />
+    </permission>
+
+    <permission acquire="False"
+                name="procergs.site.componentes: Add Local"
+    >
+      <role name="Manager" />
+      <role name="Site Administrator" />
+    </permission>
+
+
+  </permissions>
+</rolemap>

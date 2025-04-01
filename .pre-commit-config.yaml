@@ -49,7 +49,7 @@ repos:
     -   id: codespell
         additional_dependencies:
           - tomli
-        args: ["-L", "nome,comercial"]
+        args: ["-L", "nome,comercial,componentes"]
         exclude: >
             (?x)^(
                 .*\.json

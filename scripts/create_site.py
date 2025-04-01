@@ -1,5 +1,5 @@
 from AccessControl.SecurityManagement import newSecurityManager
-from procergs.sitedemo.interfaces import IBrowserLayer
+from procergs.site.componentes.interfaces import IBrowserLayer
 from Products.CMFPlone.factory import _DEFAULT_PROFILE
 from Products.CMFPlone.factory import addPloneSite
 from Testing.makerequest import makerequest
@@ -41,10 +41,10 @@ newSecurityManager(None, admin)
 
 site_id = "Plone"
 payload = {
-    "title": "sitedemo",
+    "title": "site.componentes",
     "profile_id": _DEFAULT_PROFILE,
     "extension_ids": [
-        "procergs.sitedemo:default",
+        "procergs.site.componentes:default",
     ],
     "setup_content": False,
     "default_language": "pt-br",

@@ -1,0 +1,32 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="procergs.site.componentes"
+    >
+
+  <genericsetup:registerProfile
+      name="default"
+      title="site.componentes: Install"
+      description="Package to configure a new site.componentes site"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/default"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="site.componentes: Uninstall"
+      description="Uninstall site.componentes setup."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/uninstall"
+      />
+
+  <!-- Hide Uninstall Profile-->
+  <utility
+      factory=".setuphandlers.HiddenProfiles"
+      name="procergs.site.componentes"
+      />
+
+
+  <include package=".upgrades" />
+
+</configure>

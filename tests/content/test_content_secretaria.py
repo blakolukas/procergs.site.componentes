@@ -1,7 +1,7 @@
 from AccessControl import Unauthorized
 from plone import api
 from plone.dexterity.fti import DexterityFTI
-from procergs.sitedemo.content.secretaria import Secretaria
+from procergs.site.componentes.content.secretaria import Secretaria
 from zope.component import createObject
 
 import pytest
@@ -97,6 +97,8 @@ class TestSecretaria:
         current_user = api.user.get_current()
         with api.env.adopt_roles([role]):
             can_add = api.user.has_permission(
-                "procergs.sitedemo: Add Secretaria", user=current_user, obj=content
+                "procergs.site.componentes: Add Secretaria",
+                user=current_user,
+                obj=content,
             )
             assert can_add is allowed

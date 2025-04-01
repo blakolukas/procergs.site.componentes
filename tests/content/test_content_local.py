@@ -1,7 +1,7 @@
 from AccessControl import Unauthorized
 from plone import api
 from plone.dexterity.fti import DexterityFTI
-from procergs.sitedemo.content.local import Local
+from procergs.site.componentes.content.local import Local
 from zope.component import createObject
 
 import pytest
@@ -94,6 +94,6 @@ class TestLocal:
         current_user = api.user.get_current()
         with api.env.adopt_roles([role]):
             can_add = api.user.has_permission(
-                "procergs.sitedemo: Add Local", user=current_user, obj=content
+                "procergs.site.componentes: Add Local", user=current_user, obj=content
             )
             assert can_add is allowed

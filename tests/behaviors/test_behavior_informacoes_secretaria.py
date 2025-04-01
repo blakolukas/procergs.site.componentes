@@ -1,6 +1,6 @@
 from plone import api
-from procergs.sitedemo import PACKAGE_NAME
-from procergs.sitedemo.content.local import Local
+from procergs.site.componentes import PACKAGE_NAME
+from procergs.site.componentes.content.local import Local
 
 import pytest
 

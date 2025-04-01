@@ -1,6 +1,6 @@
 from plone import api
 from plone.dexterity.fti import DexterityFTI
-from procergs.sitedemo.content.local import Local
+from procergs.site.componentes.content.local import Local
 from zope.component import createObject
 
 import pytest
@@ -45,7 +45,7 @@ class TestCustomNewsItem:
 
     @pytest.mark.parametrize(
         "behavior",
-        ["procergs.sitedemo.behavior.extras"],
+        ["procergs.site.componentes.behavior.extras"],
     )
     def test_has_behavior(self, get_behaviors, behavior):
         assert behavior in get_behaviors(CONTENT_TYPE)

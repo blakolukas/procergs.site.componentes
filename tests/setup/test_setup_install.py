@@ -1,14 +1,14 @@
-from procergs.sitedemo import PACKAGE_NAME
+from procergs.site.componentes import PACKAGE_NAME
 
 
 class TestSetupInstall:
     def test_addon_installed(self, installer):
-        """Test if procergs.sitedemo is installed."""
+        """Test if procergs.site.componentes is installed."""
         assert installer.is_product_installed(PACKAGE_NAME) is True
 
     def test_browserlayer(self, browser_layers):
         """Test that IBrowserLayer is registered."""
-        from procergs.sitedemo.interfaces import IBrowserLayer
+        from procergs.site.componentes.interfaces import IBrowserLayer
 
         assert IBrowserLayer in browser_layers
 
