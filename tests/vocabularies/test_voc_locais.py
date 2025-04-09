@@ -1,6 +1,6 @@
 from plone import api
 from plone.app.vocabularies.catalog import StaticCatalogVocabulary
-from procergs.sitedemo import PACKAGE_NAME
+from procergs.site.componentes import PACKAGE_NAME
 
 import pytest
 

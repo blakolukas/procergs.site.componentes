@@ -1,4 +1,4 @@
-from procergs.sitedemo.utils import validadores
+from procergs.site.componentes.utils import validadores
 
 import pytest
 

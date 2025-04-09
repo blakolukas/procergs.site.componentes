@@ -1,6 +1,6 @@
-from procergs.sitedemo.testing import ACCEPTANCE_TESTING
-from procergs.sitedemo.testing import FUNCTIONAL_TESTING
-from procergs.sitedemo.testing import INTEGRATION_TESTING
+from procergs.site.componentes.testing import ACCEPTANCE_TESTING
+from procergs.site.componentes.testing import FUNCTIONAL_TESTING
+from procergs.site.componentes.testing import INTEGRATION_TESTING
 from pytest_plone import fixtures_factory
 
 

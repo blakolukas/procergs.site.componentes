@@ -71,3 +71,19 @@ class PloneManager:
                 #     logger.info(f"Conteúdo publicado: '{path}'")
             # else:
             #     logger.info(f"Conteúdo não publicado: '{path}'")
+    
+    def atualizaCapa(self, conteudocapa):
+        path = "/"
+        data = conteudocapa[path]
+        payload = {}
+        payload.update(data)
+        response = self.session.patch(
+            f"{self.BASE_URL}/", json=payload
+        )
+        if response.status_code > 300:
+            breakpoint()
+            self.logger.error(
+                f"Error ao atualizar '{path}': {response.status_code}"
+            )
+        else:
+            self.logger.info(f"Conteúdo atualizado: '{path}' Tipo: {data['@type']}")

@@ -1,4 +1,4 @@
-# procergs.sitedemo
+# procergs.site.componentes
 
 Site Demonstração
 
@@ -8,10 +8,10 @@ TODO: List our awesome features
 
 ## Installation
 
-Install procergs.sitedemo with `pip`:
+Install procergs.site.componentes with `pip`:
 
 ```shell
-pip install procergs.sitedemo
+pip install procergs.site.componentes
 ```
 And to create the Plone site:
 
@@ -21,8 +21,8 @@ make create_site
 
 ## Contribute
 
-- [Issue Tracker](https://github.com/PROCERGS/procergs.sitedemo/issues)
-- [Source Code](https://github.com/PROCERGS/procergs.sitedemo/)
+- [Issue Tracker](https://github.com/PROCERGS/procergs.site.componentes/issues)
+- [Source Code](https://github.com/PROCERGS/procergs.site.componentes/)
 
 ## License
 

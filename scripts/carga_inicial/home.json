@@ -1,0 +1,124 @@
+{
+    "/": {
+        "@type": "Document",
+        "title": "Página Inicial",
+        "subtitle": "",
+        "id": "home",
+        "description": "Página Inicial",
+        "rights": "",
+        "allow_discussion": null,
+        "effective": "2019-07-31T16:25:00+0000",
+        "expires": null,
+        "exclude_from_nav": false,
+        "blocks": {
+            "71282ffd-67ad-4790-8c35-fd55a3572fea": {
+                "headlineTag": "h2",
+                "variation": "grid-servicos",
+                "styles": {},
+                "theme": "default",
+                "@type": "listing",
+                "querystring": {
+                    "depth": "1",
+                    "query": [
+                        {
+                            "i": "path",
+                            "o": "plone.app.querystring.operation.string.absolutePath",
+                            "v": "/servicos"
+                        }
+                    ],
+                    "sort_order": "ascending"
+                }
+            },
+            "e5ace182-3746-472c-ad81-696425a2b161": {
+                "styles": {},
+                "theme": "default",
+                "@type": "slate",
+                "plaintext": "Exposição de informações importantes e sazonais",
+                "value": [
+                    {
+                        "children": [
+                            {
+                                "text": "Exposição de informações importantes e sazonais"
+                            }
+                        ],
+                        "type": "p"
+                    }
+                ]
+            },
+            "a0168c29-48af-4036-8e34-3f7970a57357": {
+                "styles": {},
+                "theme": "default",
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "p",
+                        "children": [
+                            {
+                                "text": "Exibição de Bloco de notícias"
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "Exibição de Bloco de notícias"
+            },
+            "fa755443-c2d3-441d-a4a1-dc4e9fde3542": {
+                "styles": {},
+                "theme": "default",
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "p",
+                        "children": [
+                            {
+                                "text": "Exibição de Banners informativos sazonais"
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "Exibição de Banners informativos sazonais"
+            },
+            "f41df7d4-3a9a-4e9f-88c5-042f76e6bdb5": {
+                "styles": {},
+                "theme": "default",
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "p",
+                        "children": [
+                            {
+                                "text": "Área de exibição de Informes importantes que devem ser atualizados periodicamente (banner)"
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "Área de exibição de Informes importantes que devem ser atualizados periodicamente (banner)"
+            },
+            "faddb480-ef95-486c-9fef-195f5d9b527d": {
+                "styles": {},
+                "theme": "default",
+                "@type": "slate",
+                "value": [
+                    {
+                        "type": "p",
+                        "children": [
+                            {
+                                "text": "Área que mostra os programas e projetos que estão sendo executados no momento"
+                            }
+                        ]
+                    }
+                ],
+                "plaintext": "Área que mostra os programas e projetos que estão sendo executados no momento"
+            }
+        },
+        "blocks_layout": {
+            "items": [
+                "e5ace182-3746-472c-ad81-696425a2b161",
+                "a0168c29-48af-4036-8e34-3f7970a57357",
+                "fa755443-c2d3-441d-a4a1-dc4e9fde3542",
+                "f41df7d4-3a9a-4e9f-88c5-042f76e6bdb5",
+                "71282ffd-67ad-4790-8c35-fd55a3572fea",
+                "faddb480-ef95-486c-9fef-195f5d9b527d"
+            ]
+        }
+    }
+}

@@ -1,0 +1,10 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+  <utility
+      name="procergs.site.componentes.vocabulary.estados"
+      component=".estados.vocab_estados"
+      />
+  <utility
+      name="procergs.site.componentes.vocabulary.locais"
+      component=".locais.vocab_locais"
+      />
+</configure>
