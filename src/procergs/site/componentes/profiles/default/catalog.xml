@@ -11,4 +11,6 @@
   <column value="industry" />
 -->
   <column value="subtitle" />
+  <column value="url" />
+
 </object>

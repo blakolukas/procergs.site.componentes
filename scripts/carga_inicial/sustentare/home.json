@@ -1,0 +1,146 @@
+{
+    "/": {
+        "@type": "Document",
+        "title": "Página Inicial",
+        "subtitle": "",
+        "id": "home",
+        "description": "Página Inicial",
+        "rights": "",
+        "allow_discussion": null,
+        "effective": "2019-07-31T16:25:00+0000",
+        "expires": null,
+        "exclude_from_nav": false,
+        "blocks": {
+            "71282ffd-67ad-4790-8c35-fd55a3572fea": {
+               "columns": [
+                    {
+                        "@id": "7dc07032-0211-4ccc-9360-3d37107057a7",
+                        "href": [
+                        {
+                            "@id": "/comunicacao/noticias/a-diversidade-natural-que-encanta-quem-visita-agudo",
+                            "Description": "Aventura, bela natureza e gastronomia colonial são os atrativos do município",
+                            "Title": "A diversidade natural que encanta quem visita Agudo",
+                            "image_field": "image",
+                            "title": "A diversidade natural que encanta quem visita Agudo"
+                        }
+                        ],
+                        "title": "A diversidade natural que encanta quem visita Agudo",
+                        "description": "Aventura, bela natureza e gastronomia colonial são os atrativos do município"
+                    },
+                    {
+                        "@id": "50e392b5-888f-4846-9b07-120357edc1a0",
+                        "href": [
+                        {
+                            "@id": "/comunicacao/noticias/sao-lourenco-do-sul-e-as-mais-belas-praias-da-costa-doce-do-rs",
+                            "Description": "Paisagens naturais e infra-estrutura para quem deseja aproveitar o verão ou descansar",
+                            "Title": "São Lourenço do Sul e as mais belas praias da Costa Doce do RS",
+                            "image_field": "image",
+                            "title": "São Lourenço do Sul e as mais belas praias da Costa Doce do RS"
+                        }
+                        ],
+                        "title": "São Lourenço do Sul e as mais belas praias da Costa Doce do RS",
+                        "description": "Paisagens naturais e infra-estrutura para quem deseja aproveitar o verão ou descansar"
+                    },
+                    {
+                        "@id": "11b6b954-1722-4fc7-85ea-ac0cf8a21b71",
+                        "href": [
+                        {
+                            "@id": "/comunicacao/noticias/cidreira-natureza-e-pesca-se-destacam-na-praia-mais-antiga-do-litoral-norte",
+                            "Description": "Belos cenários e muitas lagoas atraem pescadores de todo o estado",
+                            "Title": "Cidreira: natureza e pesca se destacam na praia mais antiga do Litoral Norte",
+                            "image_field": "image",
+                            "title": "Cidreira: natureza e pesca se destacam na praia mais antiga do Litoral Norte"
+                        }
+                        ],
+                        "title": "Cidreira: natureza e pesca se destacam na praia mais antiga do Litoral Norte",
+                        "description": "Belos cenários e muitas lagoas atraem pescadores de todo o estado"
+                    },
+                    {
+                        "@id": "3c436386-3b15-4fa1-ba5e-43429c32b54f",
+                        "href": [
+                        {
+                            "@id": "/comunicacao/noticias/bento-goncalves-e-a-forca-do-enoturismo-da-serra-gaucha",
+                            "Description": "A capital brasileira da uva e do vinho possui diversas vinícolas que produzem vinhos de qualidade superior",
+                            "Title": "Bento Gonçalves e a força do Enoturismo da Serra Gaúcha",
+                            "image_field": "image",
+                            "title": "Bento Gonçalves e a força do Enoturismo da Serra Gaúcha"
+                        }
+                        ],
+                        "title": "Bento Gonçalves e a força do Enoturismo da Serra Gaúcha",
+                        "description": "A capital brasileira da uva e do vinho possui diversas vinícolas que produzem vinhos de qualidade superior"
+                    }
+                ],
+                "@type": "carousel",
+                "items_to_show": "1"
+            },
+            "0d961e9e-6d91-4fb8-a7dc-d900c1044ade": {
+                "@type": "listing",
+                "headline": "Serviços",
+                "headlineTag": "h2",
+                "querystring": {
+                "depth": "1",
+                "query": [
+                    {
+                    "i": "path",
+                    "o": "plone.app.querystring.operation.string.absolutePath",
+                    "v": "/servicos"
+                    }
+                ],
+                "sort_order": "ascending"
+                },
+                "styles": {},
+                "variation": "grid-servicos"
+            },
+            "47809e24-6496-4b29-851e-bb42fbc75a33": {
+                "@type": "listing",
+                "headline": "O Programa",
+                "headlineTag": "h2",
+                "querystring": {
+                "depth": "1",
+                "query": [
+                    {
+                    "i": "path",
+                    "o": "plone.app.querystring.operation.string.absolutePath",
+                    "v": "/o-programa/"
+                    }
+                ],
+                "sort_order": "ascending"
+                },
+                "styles": {},
+                "variation": "grid-programas"
+            },
+            "b1d76737-c6f5-4a85-9ff6-01a75f13735e": {
+                "@type": "listing",
+                "headlineTag": "h2",
+                "howManyColumns": 3,
+                "imageSide": "up",
+                "querystring": {
+                "depth": "1",
+                "limit": "3",
+                "query": [
+                    {
+                    "i": "path",
+                    "o": "plone.app.querystring.operation.string.absolutePath",
+                    "v": "/comunicacao/noticias/"
+                    }
+                ],
+                "sort_on": "effective",
+                "sort_order": "descending",
+                "sort_order_boolean": true
+                },
+                "showDescription": true,
+                "styles": {},
+                "variation": "advanced"
+            }
+        },
+        "blocks_layout": {
+            "items": [
+                "71282ffd-67ad-4790-8c35-fd55a3572fea",
+                "b1d76737-c6f5-4a85-9ff6-01a75f13735e",
+                "0d961e9e-6d91-4fb8-a7dc-d900c1044ade",
+                "47809e24-6496-4b29-851e-bb42fbc75a33"
+            ]
+        }
+    }
+}
+
