@@ -20,8 +20,8 @@ banners = loadJsonFile(PASTA_ATUAL / "sustentare/banners.json")
 home = loadJsonFile(PASTA_ATUAL / "sustentare/home.json")
 
 
-# plone.cadastraConteudos(menu_comunic)
-# plone.cadastraConteudos(menu_servicos)
-# plone.cadastraConteudos(menu_programa)
+plone.cadastraConteudos(menu_comunic)
+plone.cadastraConteudos(menu_servicos)
+plone.cadastraConteudos(menu_programa)
 plone.cadastraConteudos(banners)
 plone.atualizaCapa(home)
