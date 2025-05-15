@@ -25,4 +25,7 @@
   <include package=".services" />
   <include package=".serializers" />
 
+  <include package="plone.formwidget.recaptcha" />
+  <include package="collective.volto.formsupport" />
+
 </configure>

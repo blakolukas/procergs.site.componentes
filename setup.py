@@ -62,6 +62,8 @@ setup(
         "z3c.relationfield",
         "plone.app.vocabularies",
         "plone.supermodel",
+        "plone.formwidget.recaptcha==2.3.0",
+        "collective.volto.formsupport==3.3.0",
     ],
     extras_require={
         "test": [
