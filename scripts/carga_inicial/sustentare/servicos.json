@@ -42,7 +42,7 @@
             ]
         }
     },
-    "/servicos-58e67894e7b09/documentos-para-download": {
+    "/servicos/documentos-para-download": {
         "@type": "Document",
         "title": "Documentos para Download",
         "subtitle": "",
@@ -86,7 +86,7 @@
             ]
         }
     },
-    "/servicos-58e67894e7b09/documentos-para-download/cdf-inserviveis": {
+    "/servicos/documentos-para-download/cdf-inserviveis": {
         "@type": "File",
         "title": "CDF INSERVIVEIS",
         "description": "CDF INSERVIVEIS",
@@ -105,7 +105,7 @@
         },
         "subjects": []
     },
-    "/servicos-58e67894e7b09/documentos-para-download/rdae-ociosos": {
+    "/servicos/documentos-para-download/rdae-ociosos": {
         "@type": "File",
         "title": "rdae ociosos",
         "description": "rdae ociosos",
@@ -124,7 +124,7 @@
         },
         "subjects": []
     },
-    "/servicos-58e67894e7b09/documentos-para-download/solicitacao-inserviveis": {
+    "/servicos/documentos-para-download/solicitacao-inserviveis": {
         "@type": "File",
         "title": "solicitacao inserviveis",
         "description": "solicitacao inserviveis",
@@ -143,7 +143,7 @@
         },
         "subjects": []
     },
-    "/servicos-58e67894e7b09/documentos-para-download/solicitacao-ociososa": {
+    "/servicos/documentos-para-download/solicitacao-ociososa": {
         "@type": "File",
         "title": "solicitacao ociososa",
         "description": "solicitacao ociososa",
@@ -162,7 +162,7 @@
         },
         "subjects": []
     },
-    "/servicos-58e67894e7b09/documentos-para-download/cdf-ociosos": {
+    "/servicos/documentos-para-download/cdf-ociosos": {
         "@type": "File",
         "title": "CDF OCIOSOS",
         "description": "CDF OCIOSOS",
@@ -181,7 +181,7 @@
         },
         "subjects": []
     },
-    "/servicos-58e67894e7b09/documentos-para-download/cdf-recuperaveis": {
+    "/servicos/documentos-para-download/cdf-recuperaveis": {
         "@type": "File",
         "title": "CDF RECUPERAVEIS",
         "description": "CDF RECUPERAVEIS",
@@ -200,7 +200,7 @@
         },
         "subjects": []
     },
-    "/servicos-58e67894e7b09/documentos-para-download/rdae-recuperaveis": {
+    "/servicos/documentos-para-download/rdae-recuperaveis": {
         "@type": "File",
         "title": "rdae recuperaveis",
         "description": "rdae recuperaveis",
@@ -219,7 +219,7 @@
         },
         "subjects": []
     },
-    "/servicos-58e67894e7b09/documentos-para-download/rdae-inserviveis": {
+    "/servicos/documentos-para-download/rdae-inserviveis": {
         "@type": "File",
         "title": "rdae inserviveis",
         "description": "rdae inserviveis",
@@ -238,7 +238,7 @@
         },
         "subjects": []
     },
-    "/servicos-58e67894e7b09/documentos-para-download/solicitacao-recuperaveis": {
+    "/servicos/documentos-para-download/solicitacao-recuperaveis": {
         "@type": "File",
         "title": "solicitacao recuperaveis",
         "description": "solicitacao recuperaveis",
