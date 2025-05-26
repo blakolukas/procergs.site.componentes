@@ -10,7 +10,22 @@
   <!-- Metadata
   <column value="industry" />
 -->
+
+  <index meta_type="BooleanIndex"
+         name="indicador_manchete"
+  >
+    <indexed_attr value="indicador_manchete" />
+  </index>
+  <index meta_type="BooleanIndex"
+         name="indicador_destaque"
+  >
+    <indexed_attr value="indicador_destaque" />
+  </index>
+
   <column value="subtitle" />
   <column value="url" />
+  <column value="indicador_destaque" />
+  <column value="indicador_manchete" />
+
 
 </object>
