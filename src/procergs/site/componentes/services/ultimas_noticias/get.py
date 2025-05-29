@@ -42,19 +42,6 @@ class UltimasNoticiasGet(Service):
             for brain in results
         ]
 
-        """
-        for brain in brains:
-            obj = brain.getObject()
-            news.append({
-                'title': obj.title,
-                'description': obj.description,
-                'url': obj.absolute_url(),
-                'effective': obj.effective().toString(),
-                # Add other fields as needed
-            })
-        """
-
-        # Format response
         return {
             "@id": self.context.absolute_url() + "/@ultimas_noticias",
             "items": brains,

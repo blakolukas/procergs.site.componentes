@@ -3,17 +3,16 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     >
 
-  <!-- Example upgrade step
   <genericsetup:upgradeSteps
       profile="procergs.site.componentes:default"
       source="1000"
       destination="1001"
       >
-    <genericsetup:upgradeDepends
-        title="Update registry value"
-        import_steps="plone.app.registry"
+    <genericsetup:upgradeStep
+        title="Update indexes"
+        description="Add indexes indicador_manchete and indicador_destaque for News Item"
+        handler="procergs.site.componentes.upgrades.v1001.update_indexes"
         />
   </genericsetup:upgradeSteps>
-  -->
 
 </configure>
