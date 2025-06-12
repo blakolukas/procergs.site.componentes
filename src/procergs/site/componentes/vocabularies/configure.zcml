@@ -7,4 +7,8 @@
       name="procergs.site.componentes.vocabulary.locais"
       component=".locais.vocab_locais"
       />
+    <utility
+      name="procergs.site.componentes.vocabulary.patternNoticias"
+      component=".patternNoticias.pattern_noticias"
+    />
 </configure>

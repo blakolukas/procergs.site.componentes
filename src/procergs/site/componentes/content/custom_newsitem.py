@@ -6,6 +6,14 @@ from zope.interface import implementer
 
 
 class ICustomNewsItem(model.Schema):
+    pattern_news = schema.Choice(
+        title=_("Padrão"),
+        description=_("Selecione o padrão de exibição do conteúdo."),
+        vocabulary="procergs.site.componentes.vocabulary.patternNoticias",
+        required=True,
+        default="padrao1",
+    )
+    
     indicador_destaque = schema.Bool(
         title=_("Destaque"),
         description=_("Indica se o conteúdo é um destaque"),

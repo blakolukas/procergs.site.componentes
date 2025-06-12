@@ -1,0 +1,16 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    >
+
+  <subscriber
+    for="procergs.site.componentes.content.custom_newsitem.ICustomNewsItem
+         zope.lifecycleevent.interfaces.IObjectAddedEvent"
+    handler=".subscribers.init_pattern_news" />
+
+  <subscriber
+    for="procergs.site.componentes.content.custom_newsitem.ICustomNewsItem
+         zope.lifecycleevent.interfaces.IObjectModifiedEvent"
+    handler=".subscribers.update_pattern_news" />
+
+</configure>
