@@ -5,7 +5,10 @@ import requests
 # Class responsável pelas interações com o Plone API
 class PloneManager:
     def __init__(self):
-        self.BASE_URL = "http://localhost:8080/Plone/++api++"
+        # self.BASE_URL = "http://localhost:8080/Plone/++api++"
+        self.BASE_URL = (
+            "http://siteplone.apps.kildes4830.des.intra.rs.gov.br/Plone/++api++"
+        )
         self.USUARIO = "admin"
         self.SENHA = "admin"
         self.session = self.getAuthenticatedSession()
@@ -71,19 +74,30 @@ class PloneManager:
                 #     logger.info(f"Conteúdo publicado: '{path}'")
             # else:
             #     logger.info(f"Conteúdo não publicado: '{path}'")
-    
+
     def atualizaCapa(self, conteudocapa):
         path = "/"
         data = conteudocapa[path]
         payload = {}
         payload.update(data)
+        response = self.session.patch(f"{self.BASE_URL}/", json=payload)
+        if response.status_code > 300:
+            breakpoint()
+            self.logger.error(f"Error ao atualizar '{path}': {response.status_code}")
+        else:
+            self.logger.info(f"Conteúdo atualizado: '{path}' Tipo: {data['@type']}")
+
+    def atualizaItensMenu(self, conteudomenu):
+        data = conteudomenu
+        payload = {}
+        payload.update(data)
         response = self.session.patch(
-            f"{self.BASE_URL}/", json=payload
+            f"{self.BASE_URL}/@controlpanels/navigation", json=payload
         )
         if response.status_code > 300:
             breakpoint()
             self.logger.error(
-                f"Error ao atualizar '{path}': {response.status_code}"
+                f"Error ao atualizar itens de menu': {response.status_code}"
             )
         else:
-            self.logger.info(f"Conteúdo atualizado: '{path}' Tipo: {data['@type']}")
+            self.logger.info(f"Itens de menu atualizados")

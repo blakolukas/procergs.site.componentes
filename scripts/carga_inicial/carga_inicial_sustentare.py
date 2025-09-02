@@ -18,6 +18,7 @@ menu_servicos = loadJsonFile(PASTA_ATUAL / "sustentare/servicos.json")
 menu_programa = loadJsonFile(PASTA_ATUAL / "sustentare/o-programa.json")
 banners = loadJsonFile(PASTA_ATUAL / "sustentare/banners.json")
 home = loadJsonFile(PASTA_ATUAL / "sustentare/home.json")
+displayed_types = loadJsonFile(PASTA_ATUAL / "sustentare/displayed_types.json")
 
 
 plone.cadastraConteudos(menu_comunic)
@@ -25,3 +26,4 @@ plone.cadastraConteudos(menu_servicos)
 plone.cadastraConteudos(menu_programa)
 plone.cadastraConteudos(banners)
 plone.atualizaCapa(home)
+plone.atualizaItensMenu(displayed_types)

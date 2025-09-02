@@ -30,11 +30,15 @@ class UltimasNoticiasGet(Service):
         ]:
             sort_on = ["indicador_destaque", "effective"]
 
+        itens = int(request.form.get("itens", 3))
+        if itens < 2 or itens > 4:
+            raise ValueError("O parâmetro 'itens' deve ser um número entre 2 e 4.")
+
         results = catalog(
             **query,
             sort_on=sort_on,
             sort_order="descending",
-            b_size=3,
+            sort_limit=int(itens),
         )
 
         brains = [
